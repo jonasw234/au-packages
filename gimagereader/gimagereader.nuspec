@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>gimagereader</id>
+    <title>gImageReader</title>
+    <version>3.3.1</version>
+    <authors>Sandro Mani</authors>
+    <owners>Jonas A. Wendorf</owners>
+    <summary>A Gtk/Qt front-end to tesseract-ocr.</summary>
+    <description>
+        gImageReader is a simple Gtk/Qt front-end to tesseract-ocr.
+    </description>
+    <releaseNotes>
+        gImageReader 3.3.1 (Jul 28 2019):
+
+        - HOCR: propagate attributes to manually added elements (@foghawk)
+        - HOCR: improve spelling of hyphenated words (@foghawk)
+        - HOCR: improve spelling of words with special characters (@foghawk)
+        - HOCR: allow specifying a DPI to assume for image sources when exporting to PDF (@foghawk)
+        - HOCR: allow use to choose whether to sanitize hyphens when exporting to PDF
+        - HOCR: Attempt to map 639-2 language codes to ISO 639-1 to set spelling language
+        - Allow specifying character whitelist / blacklist for recognition
+        - Various bugfixes
+        - Translation updates
+        - Full details in commit log: https://github.com/manisandro/gImageReader/commits/master
+    </releaseNotes>
+    <projectUrl>https://github.com/manisandro/gImageReader</projectUrl>
+    <projectSourceUrl>https://github.com/manisandro/gImageReader</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/manisandro/gImageReader/issues</bugTrackerUrl>
+    <docsUrl>https://github.com/manisandro/gImageReader/wiki/FAQ</docsUrl>
+    <packageSourceUrl>https://github.com/jonasw234/au-packages/tree/master/gimagereader</packageSourceUrl>
+    <tags>ocr optical-character-recognition tesseract image reader</tags>
+    <copyright></copyright>
+    <licenseUrl>https://github.com/manisandro/gImageReader/blob/master/COPYING</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
