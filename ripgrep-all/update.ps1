@@ -12,6 +12,9 @@ function global:au_SearchReplace {
 }
 
 function global:au_GetLatest {
+    $AllProtocols = [System.Net.SecurityProtocolType]'Tls11,Tls12'
+    [System.Net.ServicePointManager]::SecurityProtocol = $AllProtocols
+
     $download_page = Invoke-WebRequest -Uri $releases
 
     $url64   = $download_page.links | ? href -match '-x86_64-pc-windows-msvc.7z$' | % href | select -First 1
