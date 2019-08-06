@@ -15,10 +15,10 @@ function global:au_GetLatest {
     $AllProtocols = [System.Net.SecurityProtocolType]'Tls11,Tls12'
     [System.Net.ServicePointManager]::SecurityProtocol = $AllProtocols
 
-    $download_page = Invoke-WebRequest -Uri $releases
+    $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 
     $url64   = $download_page.links | ? href -match '-x86_64-pc-windows-msvc.7z$' | % href | select -First 1
-    $version = (Split-Path ( Split-Path $url64 ) -Leaf).Substring(1)
+    $version = (Split-Path ( Split-Path $url64 ) -Leaf)
 
     @{
         URL64   = 'https://github.com' + $url64
