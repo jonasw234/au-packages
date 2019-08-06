@@ -17,7 +17,7 @@ function global:au_GetLatest {
     $AllProtocols = [System.Net.SecurityProtocolType]'Tls11,Tls12'
     [System.Net.ServicePointManager]::SecurityProtocol = $AllProtocols
 
-    $download_page = Invoke-WebRequest -Uri $releases
+    $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 
     $url64   = $download_page.links | ? href -match '_x86_64.exe$' | % href | select -First 1
     $url32   = $url64 -replace '_x86_64.exe$', '_i686.exe'
