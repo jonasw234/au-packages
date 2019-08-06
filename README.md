@@ -9,7 +9,7 @@ This repository contains [chocolatey automatic packages](https://chocolatey.org/
 Chocolatey packages for some more awesome software that didn’t have packages yet.
 
 ## ripgrep-all
-Use ripgrep to search inside PDF documents, ZIP files and many more.
+rga: ripgrep, but also search in PDFs, E-Books, Office documents, zip, tar.gz, etc.
 
 ## gImageReader
-Great OCR software.
+gImageReader is a simple Gtk/Qt front-end to tesseract-ocr.
