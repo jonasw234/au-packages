@@ -24,8 +24,9 @@ function global:au_GetLatest {
 
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 
-    $url     = $download_page.links | ? href -match '-x86_64-pc-windows-gnu.zip$' | % href | select -First 1
-    $version = (Split-Path ( Split-Path $url64 ) -Leaf)
+    $re      = '-x86_64-pc-windows-gnu.zip$'
+    $url     = $download_page.links | ? href -match $re | select -First 1 -expand href
+    $version = $url -split '[-]|.zip' | select -First 2
 
     @{
         Version      = $version
