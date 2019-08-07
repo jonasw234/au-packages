@@ -26,7 +26,7 @@ function global:au_GetLatest {
 
     $re      = '-x86_64-pc-windows-gnu.zip$'
     $url     = $download_page.links | ? href -match $re | select -First 1 -expand href
-    $version = $url -split '[-]|.zip' | select -First 2
+    $version = $url -split '[-]|.zip' | select -First 1 -Skip 1
 
     @{
         Version      = $version
