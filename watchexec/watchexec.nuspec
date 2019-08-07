@@ -4,7 +4,7 @@
   <metadata>
     <id>watchexec</id>
     <title>watchexec</title>
-    <version>1.10.3</version>
+    <version>1.10.3.20190807</version>
     <authors>passcod</authors>
     <owners>Jonas A. Wendorf</owners>
     <summary>Executes commands in response to file modifications</summary>
@@ -88,9 +88,6 @@
         * [notify](https://github.com/passcod/notify) for doing most of the heavy-lifting
         * [globset](https://crates.io/crates/globset) for super-fast glob matching
     </description>
-    <releaseNotes>
-        * The man page was brought up-to-date to new options and a hint to use -- (#125)
-    </releaseNotes>
     <projectUrl>https://github.com/watchexec/watchexec</projectUrl>
     <projectSourceUrl>https://github.com/watchexec/watchexec</projectSourceUrl>
     <bugTrackerUrl>https://github.com/watchexec/watchexec/issues</bugTrackerUrl>
@@ -100,8 +97,6 @@
     <copyright></copyright>
     <licenseUrl>https://github.com/watchexec/watchexec/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <dependencies>
-    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
