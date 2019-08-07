@@ -4,9 +4,6 @@ $version     = $env:chocolateyPackageVersion
 $packageName = $env:chocolateyPackageName
 $toolsDir    = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
-$url         = ( -f $version)
-$url64       = ( -f $version)
-
 $packageArgs = @{
     fileType       = 'exe'
     packageName    = $packageName
