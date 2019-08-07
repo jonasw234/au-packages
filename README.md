@@ -13,3 +13,6 @@ rga: ripgrep, but also search in PDFs, E-Books, Office documents, zip, tar.gz, e
 
 ## gImageReader
 gImageReader is a simple Gtk/Qt front-end to tesseract-ocr.
+
+## watchexec
+Executes commands in response to file modifications
