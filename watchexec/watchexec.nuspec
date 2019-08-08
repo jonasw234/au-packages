@@ -97,6 +97,7 @@
     <copyright></copyright>
     <licenseUrl>https://github.com/watchexec/watchexec/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>https://github.com/watchexec/watchexec</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
