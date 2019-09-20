@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>w10privacy</id>
+    <title>w10privacy</title>
+    <version>3.3.0.4</version>
+    <authors>Bernd Schuster</authors>
+    <owners>Jonas A. Wendorf</owners>
+    <summary>W10Privacy – Privacy made easy</summary>
+    <description>
+        # W10Privacy - for what
+
+        The by default highly questionable set options concerning privacy and data protection in Windows 10 brought me to the idea to develop this program. Microsoft generously enables everybody to change the concerning settings, but hides them in countless menus, where a normal user does not want to search for
+
+        The program should therefore be a help, to display the available settings relatively clearly and to set the desired options if necessary.
+
+        The primary focus is on settings for *Windows 10* and its apps (for example the new browser "Edge"). The program will be expanded gradually, if possible and available, with the corresponding Windows 8.1 features in the future.
+
+        W10Privacy is certainly no programming masterpiece, but meets my envisaged purpose. The software is still in an early development phase suggestions and requests will be gladly accepted and considered, if necessary, in the further development!
+    </description>
+    <projectUrl>https://www.winprivacy.de/english-home/</projectUrl>
+    <bugTrackerUrl>https://www.winprivacy.de/english-home/contact/</bugTrackerUrl>
+    <docsUrl>https://www.winprivacy.de/english-home/instructions-1/</docsUrl>
+    <packageSourceUrl>https://github.com/jonasw234/au-packages/tree/master/w10privacy</packageSourceUrl>
+    <tags>windows 10 privacy protection disable tracking</tags>
+    <copyright></copyright>
+    <licenseUrl>http://creativecommons.org/licenses/by-nc-nd/4.0/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>https://www.winprivacy.de/deutsch-start/versionshistorie/</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

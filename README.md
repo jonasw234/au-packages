@@ -16,3 +16,6 @@ gImageReader is a simple Gtk/Qt front-end to tesseract-ocr.
 
 ## watchexec
 Executes commands in response to file modifications
+
+## W10Privacy
+Helps set options concerning privacy and data protection in Windows 10
