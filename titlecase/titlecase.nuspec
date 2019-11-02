@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>titlecase</id>
+    <title>Title Case</title>
+    <version>0.10.0</version>
+    <authors>wezm</authors>
+    <owners>Jonas A. Wendorf</owners>
+    <summary>A tool and Rust crate for making text title case</summary>
+    <description>
+        Title Case (titlecase)
+
+        titlecase is a small tool that capitalizes English text according to a style defined by John Gruber for post titles on his website Daring Fireball. titlecase runs on Linux, macOS, FreeBSD, NetBSD, and Windows. A dependency free, single-file binary is built for each supported platform for every release.
+    </description>
+    <projectUrl>https://github.com/wezm/titlecase</projectUrl>
+    <projectSourceUrl>https://github.com/wezm/titlecase</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/wezm/titlecase/issues</bugTrackerUrl>
+    <packageSourceUrl>https://github.com/jonasw234/au-packages/tree/master/titlecase</packageSourceUrl>
+    <tags>titlecase converter capitalization lower case upper case</tags>
+    <copyright></copyright>
+    <licenseUrl>https://github.com/wezm/titlecase/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>https://github.com/wezm/titlecase/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

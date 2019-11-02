@@ -19,3 +19,6 @@ Executes commands in response to file modifications
 
 ## W10Privacy
 Helps set options concerning privacy and data protection in Windows 10
+
+## Title Case
+A tool and Rust crate for making text title case
