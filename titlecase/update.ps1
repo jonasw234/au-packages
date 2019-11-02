@@ -29,7 +29,8 @@ function global:au_GetLatest {
     $re      = '-x86_64-pc-windows-msvc.zip$'
     $url64   = $download_page.links | ? href -match $re | select -First 1 -expand href
     $url64   = $url64 | % {$domain + $_ }
-    $version = $url64 -split '[-]|.zip' | select -First 1 -Skip 2
+    $version = $url64 -split '[-]|.zip' | select -First 1 -Skip 1
+    $version = $version.substring(1)
 
     @{
         Version      = $version
