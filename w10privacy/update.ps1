@@ -18,10 +18,10 @@ function global:au_GetLatest {
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 
     $re       = 'W10Privacy.zip'
-    $domain   = $releases -split '(?<=//.+)/' | select -First 1
+    $domain   = $releases -split 'W10Privacy.zip' | select -First 1
     $url      = $download_page.links | ? href -match $re | select -First 1 -expand href
-    $url      = $url | % {$domain + $_ }
-    $redirect = Invoke-WebRequest -Uri $url -MaximumRedirection 0 -ErrorAction Ignore
+    $url      = "https://www.w10privacy.de$url" 
+    $redirect = Invoke-WebRequest -Uri $url -MaximumRedirection 0 -ErrorAction Ignore -UseBasicParsing
     $url      = $redirect.Headers.Location
     $download_page.Content -match 'v(\.\d+){0,5}\.\d+'
     $version  = $matches[0].substring(2)
