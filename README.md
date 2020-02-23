@@ -22,3 +22,6 @@ Helps set options concerning privacy and data protection in Windows 10
 
 ## Title Case
 A tool and Rust crate for making text title case
+
+## 0patch
+Micropatches for various software to fix critical security vulnerabilities until the vendor publishes patches
