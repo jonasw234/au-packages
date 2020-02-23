@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>0patch</id>
+    <title>0patch</title>
+    <version>19.11.15.10650</version>
+    <authors>ACROS Security</authors>
+    <owners>Jonas A. Wendorf</owners>
+    <summary>No more patching headaches</summary>
+    <description>
+        0patch is a microscopic solution for a huge security problem.
+
+        It provides miniature patches of code (“micropatches”) to computers and other devices worldwide in order to fix software vulnerabilities in various, even closed source products. With 0patch, there are no reboots or downtime when patching and no fear that a huge official update will break production.
+
+        Corporate users and administrators appreciate the lightness and simplicity of 0patch, as it is shortening the patch deployment time from months to just hours. Reviewing tiny 0patches is cheap, and the ability to instantly apply and remove them locally or remotely significantly simplifies production testing.
+
+        Software patching becomes virtually imperceptible.
+
+        *Please note that you need to create an account for this to work. Free accounts are available.*
+    </description>
+    <projectUrl>https://0patch.com/</projectUrl>
+    <bugTrackerUrl>https://0patch.com/contact.html</bugTrackerUrl>
+    <docsUrl>https://0patch.com/patches.html</docsUrl>
+    <packageSourceUrl>https://github.com/jonasw234/au-packages/tree/master/0patch</packageSourceUrl>
+    <tags>windows 7 server 2008 end-of-life eol micropatches security vulnerability exploit protection</tags>
+    <copyright>0patch by ACROS Security</copyright>
+    <licenseUrl>https://0patch.com/files/License_agreement.rtf</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>https://0patch.com/patches.html</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
