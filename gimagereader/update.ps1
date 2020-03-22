@@ -21,7 +21,8 @@ function global:au_GetLatest {
 
     $url64   = $download_page.links | ? href -match '_x86_64.exe$' | % href | select -First 1
     $url32   = $url64 -replace '_x86_64.exe$', '_i686.exe'
-    $version = (Split-Path ( Split-Path $url32 ) -Leaf).Substring(1)
+    $needle = '/manisandro/gImageReader/releases/tag/v'
+    $version = $download_page.Content[($download_page.Content.IndexOf($needle) + $needle.Length)..($download_page.Content.IndexOf('"', $download_page.Content.IndexOf($needle)) - 1)] -Join ''
 
     @{
         URL32   = 'https://github.com' + $url32
