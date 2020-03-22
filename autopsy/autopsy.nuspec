@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>autopsy</id>
+    <title>Autopsy®</title>
+    <version>4.14.0</version>
+    <authors>sleuthkit</authors>
+    <owners>Jonas A. Wendorf</owners>
+    <summary>Autopsy is a graphical interface to The Sleuth Kit and other open source digital forensics tools.</summary>
+    <description>
+        Autopsy® is a digital forensics platform and graphical interface to The Sleuth Kit® and other digital forensics tools. It can be used by law enforcement, military, and corporate examiners to investigate what happened on a computer. You can even use it to recover photos from your camera's memory card.
+    </description>
+    <releaseNotes>
+        Specialized UIs:
+        * New File Discovery UI that allows you to search and filter for certain types of files. Works best with the Central Repository storing all of the hashes you've seen.
+        * New Map viewer that uses either Bing (when online) or offline map tiles.
+        * Communications UI shows country names for phone numbers and fixed bug in summary panel.
+        * Fixed bugs in timeline filtering.
+        * Refactored backend timeline filtering code based on The Sleuth Kit data model changes to remove JavaFX dependency.
+
+        Data Sources:
+        * Added limited support for APFS disk images. Does not include encrypted volumes or ones that span multiple disks. Uses contribution to The Sleuth Kit from Black Bag Technologies.
+        * New data source processor that parses “XRY File Exports”.
+
+        Content Viewers:
+        * Added a new “Context” viewer to show where a file came from. Currently shows what message a file was attached to or what URL a file was downloaded from.
+        * Added support to seek and change playback speed for videos in “Application” viewer.
+        * Improved support for Unicode HTML files in “Application” viewer.
+        * Added support for webp image files in “Application” viewer.
+
+        Ingest Modules:
+        * Keyword Search module uses Decodetect statistical encoding detection for plain text files. Fixes issues with incorrect detection of Japanese files.
+        * Embedded File Extractor module uses statistical analysis to determine encoding of file names in ZIP files. Fixes issues with ZIP files created on Windows Japanese computers.
+        * Solr (Keyword Search module) now uses Japanese-specific tokenization using Kuromoji.
+        * Fixed Shellbags module in RegRipper (used by Autopsy Recent Activity module) to fix parsing errors.
+        * Plaso module no longer generates an error if enabled for non-disk image data sources.
+        * Added support for message attachments that are stored as an external file system file. Expanded Email and Android modules to use this technique.
+
+        General:
+        * Fixed crashes by gstreamer when a video is selected.
+        * Added initial capability to delete a data source from a case (excludes data in the CR).
+        * Changed behavior of portable case menu item to automatically open the case and warn if it was already unpacked.
+        * Fixed bug that caused issues when case metadata had Unicode values.
+        * Added new Attachment APIs to the CommunicationsArtifactHelper class to support attachments stored as external file system files.
+    </releaseNotes>
+    <projectUrl>http://www.sleuthkit.org/autopsy/</projectUrl>
+    <projectSourceUrl>https://github.com/sleuthkit/autopsy</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/sleuthkit/autopsy/issues</bugTrackerUrl>
+    <docsUrl>https://www.sleuthkit.org/autopsy/docs.php</docsUrl>
+    <packageSourceUrl>https://github.com/jonasw234/au-packages/tree/master/autopsy</packageSourceUrl>
+    <tags>sleuthkit autopsy forensics gui case crime evidence collection</tags>
+    <copyright>Brian Carrier</copyright>
+    <licenseUrl>https://github.com/sleuthkit/autopsy/blob/develop/LICENSE-2.0.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <dependencies>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
