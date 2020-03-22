@@ -21,7 +21,7 @@ function global:au_GetLatest {
 
     $url32   = $download_page.links | ? href -match '-32bit.msi$' | % href | select -First 1
     $url64   = $download_page.links | ? href -match '-64bit.msi$' | % href | select -First 1
-    $version = (Split-Path ( Split-Path $url64 ) -Leaf).Substring(1)
+    $version = (Split-Path ( Split-Path $url64 ) -Leaf).Split('-')[1]
 
     @{
         URL32   = 'https://github.com' + $url32
