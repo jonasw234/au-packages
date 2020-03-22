@@ -28,3 +28,6 @@ Micropatches for various software to fix critical security vulnerabilities until
 
 ## Autopsy
 Autopsy is a graphical interface to The Sleuth Kit and other open source digital forensics tools
+
+## espanso
+Cross-platform Text Expander written in Rust
