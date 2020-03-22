@@ -25,3 +25,6 @@ A tool and Rust crate for making text title case
 
 ## 0patch
 Micropatches for various software to fix critical security vulnerabilities until the vendor publishes patches
+
+## Autopsy
+Autopsy is a graphical interface to The Sleuth Kit and other open source digital forensics tools
