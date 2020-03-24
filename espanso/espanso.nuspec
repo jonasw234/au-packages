@@ -9,7 +9,7 @@
     <owners>Jonas A. Wendorf</owners>
     <summary>Cross-platform Text Expander written in Rust</summary>
     <description>
-        ![espanso](images/titlebar.png)
+        ![espanso](https://raw.githubusercontent.com/federico-terzi/espanso/master/images/titlebar.png)
 
         > A cross-platform Text Expander written in Rust
 
@@ -19,7 +19,7 @@
         ![License](https://img.shields.io/github/license/federico-terzi/espanso)
         [![Build Status](https://dev.azure.com/freddy6896/espanso/_apis/build/status/federico-terzi.espanso?branchName=master)](https://dev.azure.com/freddy6896/espanso/_build/latest?definitionId=1&amp;branchName=master)
 
-        ![example](images/example.gif)
+        ![example](https://raw.githubusercontent.com/federico-terzi/espanso/master/images/example.gif)
 
         Visit the [espanso website](https://espanso.org).
 
@@ -85,12 +85,12 @@
         ## License
 
         espanso was created by [Federico Terzi](http://federicoterzi.com)
-        and is licensed under the [GPL-3.0 license](/LICENSE).
+        and is licensed under the [GPL-3.0 license](https://github.com/federico-terzi/espanso/LICENSE).
     </description>
     <projectUrl>https://github.com/federico-terzi/espanso</projectUrl>
     <projectSourceUrl>https://github.com/federico-terzi/espanso</projectSourceUrl>
     <bugTrackerUrl>https://github.com/federico-terzi/espanso/issues</bugTrackerUrl>
-    <docsUrl>https://github.com/federico-terzi/espanso/tree/master/doc</docsUrl>
+    <docsUrl>https://espanso.org/docs/</docsUrl>
     <packageSourceUrl>https://github.com/jonasw234/au-packages/tree/master/espanso</packageSourceUrl>
     <tags>text expander keyword replace system-wide typing scriptable</tags>
     <copyright></copyright>
