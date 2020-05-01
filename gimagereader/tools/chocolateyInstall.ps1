@@ -1,8 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop';
 
-$version     = $env:chocolateyPackageVersion
 $packageName = $env:chocolateyPackageName
-$toolsDir    = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
     fileType       = 'exe'

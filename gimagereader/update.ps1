@@ -19,7 +19,7 @@ function global:au_GetLatest {
 
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 
-    $url64   = $download_page.links | ? href -match '_x86_64.exe$' | % href | select -First 1
+    $url64   = $download_page.links | ? href -match '\d_qt5_x86_64\.exe$' | % href | select -First 1
     $url32   = $url64 -replace '_x86_64.exe$', '_i686.exe'
     $needle = '/manisandro/gImageReader/releases/tag/v'
     $version = $download_page.Content[($download_page.Content.IndexOf($needle) + $needle.Length)..($download_page.Content.IndexOf('"', $download_page.Content.IndexOf($needle)) - 1)] -Join ''
