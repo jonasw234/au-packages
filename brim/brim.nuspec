@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>brim</id>
+    <title>Brim</title>
+    <version>0.8.0</version>
+    <authors>Brim</authors>
+    <owners>Jonas A. Wendorf</owners>
+    <summary>Desktop application to efficiently search large packet captures and Zeek logs.</summary>
+    <description>
+        Brim is an open source desktop application for security and network specialists. Brim makes it easy to search and analyze data from:
+
+        * packet captures, like those created by Wireshark, and
+        * structured logs, especially from the Zeek network analysis framework.
+
+        Brim is especially useful to security and network operators that need to handle large packet captures, especially those that are cumbersome for Wireshark, tshark, or other packet analyzers.
+
+        Brim is built from open source components, including:
+
+        * zq, a structured log query engine;
+        * Electron and React for multi-platform UI;
+        * Zeek, to generate network analysis data from packet capture files.
+
+        *Please Note:* This is an automatically updated package.  If the package is outdated for more than two days, please let me know!
+    </description>
+    <projectUrl>https://www.brimsecurity.com/</projectUrl>
+    <projectSourceUrl>https://github.com/brimsec/brim</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/brimsec/brim/issues</bugTrackerUrl>
+    <packageSourceUrl>https://github.com/jonasw234/au-packages/tree/master/brim</packageSourceUrl>
+    <tags>wireshark zeek packet capture structured logs network analysis security</tags>
+    <copyright>https://www.brimsecurity.com/</copyright>
+    <licenseUrl>https://github.com/brimsec/brim/blob/master/LICENSE.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>https://github.com/brimsec/brim/releases</releaseNotes>
+    <dependencies>
+      <dependency id="wireshark" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
