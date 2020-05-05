@@ -4,7 +4,7 @@
   <metadata>
     <id>autopsy</id>
     <title>Autopsy®</title>
-    <version>4.14.0</version>
+    <version>4.15.0</version>
     <authors>sleuthkit</authors>
     <owners>Jonas A. Wendorf</owners>
     <summary>Autopsy is a graphical interface to The Sleuth Kit and other open source digital forensics tools.</summary>
