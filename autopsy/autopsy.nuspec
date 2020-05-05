@@ -43,6 +43,8 @@
         * Changed behavior of portable case menu item to automatically open the case and warn if it was already unpacked.
         * Fixed bug that caused issues when case metadata had Unicode values.
         * Added new Attachment APIs to the CommunicationsArtifactHelper class to support attachments stored as external file system files.
+
+        *Please Note:* This is an automatically updated package.  If the package is outdated for more than two days, please let me know!
     </releaseNotes>
     <projectUrl>http://www.sleuthkit.org/autopsy/</projectUrl>
     <projectSourceUrl>https://github.com/sleuthkit/autopsy</projectSourceUrl>
