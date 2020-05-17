@@ -4,14 +4,14 @@
   <metadata>
     <id>espanso</id>
     <title>espanso</title>
-    <version>0.4.0</version>
+    <version>0.6.0</version>
     <authors>Federico Terzi</authors>
     <owners>Jonas A. Wendorf</owners>
     <summary>Cross-platform Text Expander written in Rust</summary>
     <description>
         ![espanso](https://raw.githubusercontent.com/federico-terzi/espanso/master/images/titlebar.png)
 
-        > A cross-platform Text Expander written in Rust
+        &gt; A cross-platform Text Expander written in Rust
 
         ![GitHub release (latest by date)](https://img.shields.io/github/v/release/federico-terzi/espanso)
         ![Language](https://img.shields.io/badge/language-rust-orange)
