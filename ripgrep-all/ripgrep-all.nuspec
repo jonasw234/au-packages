@@ -4,7 +4,7 @@
   <metadata>
     <id>ripgrep-all</id>
     <title>Ripgrep-All</title>
-    <version>0.9.3</version>
+    <version>0.9.6</version>
     <authors>phiresky</authors>
     <owners>Jonas A. Wendorf</owners>
     <summary>rga: ripgrep, but also search in PDFs, E-Books, Office documents, zip, tar.gz, etc.</summary>

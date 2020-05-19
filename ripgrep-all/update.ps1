@@ -17,8 +17,8 @@ function global:au_GetLatest {
 
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 
-    $url64   = $download_page.links | ? href -match '-x86_64-pc-windows-msvc.7z$' | % href | select -First 1
-    $version = (Split-Path ( Split-Path $url64 ) -Leaf)
+    $url64   = $download_page.links | ? href -match '-x86_64-pc-windows-msvc.(7z|zip)$' | % href | select -First 1
+    $version = (Split-Path ( Split-Path $url64 ) -Leaf).Replace('v', '')
 
     @{
         URL64   = 'https://github.com' + $url64
