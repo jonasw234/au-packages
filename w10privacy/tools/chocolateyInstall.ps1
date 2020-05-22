@@ -4,12 +4,12 @@ $toolsPath   = Split-Path $MyInvocation.MyCommand.Definition
 $download_dir = "$Env:TEMP\chocolatey\$packageName\$Env:ChocolateyPackageVersion"
 
 $packageArgs = @{
-  fileType       = 'exe'
   packageName    = 'w10privacy'
-  url64Bit       = 'https://sf91b3285d9193eec.jimcontent.com/download/version/1580729393/module/12302828636/name/W10Privacy.zip'
-  checksum64     = '8F490E5E2A8AEB82544A44001D44576610D7D4B0ED9388B36CBA20858874E1C2'
+  unzipLocation  = Split-Path $MyInvocation.MyCommand.Definition
+  url64Bit       = 'https://sf91b3285d9193eec.jimcontent.com/download/version/1586771754/module/12302828636/name/W10Privacy.zip'
+  checksum64     = 'B59BEF1F4FF0C5923BB3B5D83A9E402EF04740F481E83A9C30B26711A7C72B6D'
   checksumType64 = 'sha256'
-  silentArgs     = '/S'
 }
 
-Install-ChocolateyPackage @packageArgs
+Install-ChocolateyZipPackage @packageArgs
+Install-ChocolateyPackage -FileType 'exe' -SilentArgs '/S' -File64 "$toolsPath\W10Privacy $version Setup.exe"
