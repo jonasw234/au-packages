@@ -1,5 +1,4 @@
 import-module au
-. $PSScriptRoot\..\_scripts\all.ps1
 
 $releases = 'https://github.com/watchexec/watchexec/releases'
 
@@ -12,8 +11,6 @@ function global:au_SearchReplace {
     }
 }
 
-function global:au_BeforeUpdate { Get-RemoteFiles -Purge }
-
 function global:au_GetLatest {
     $AllProtocols = [System.Net.SecurityProtocolType]'Tls11,Tls12'
     [System.Net.ServicePointManager]::SecurityProtocol = $AllProtocols
@@ -21,15 +18,14 @@ function global:au_GetLatest {
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 
     $re      = '-x86_64-pc-windows-gnu\.zip$'
-    $domain  = $releases -split '(?<=//.+)/' | select -First 1
-    $url     = $download_page.links | ? href -match $re | select -First 1 -expand href
-    $url     = $url | % {$domain + $_ }
-    $version = $url -split '[-]|.zip' | select -First 1 -Skip 1
+    $domain  = $releases -split '(?<=//.+)/' | Select-Object -First 1
+    $url     = $download_page.links | Where-Object href -match $re | Select-Object -First 1 -expand href | ForEach-Object {$domain + $_ }
+    $version = $url -split '[-]|.zip' | Select-Object -First 1 -Skip 1
 
-    @{
+    return @{
         Version      = $version
         URL64        = $url
     }
 }
 
-update -ChecksumFor 64
+update -ChecksumFor 64 -NoCheckChocoVersion
