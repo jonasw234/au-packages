@@ -31,3 +31,6 @@ Autopsy is a graphical interface to The Sleuth Kit and other open source digital
 
 ## espanso
 Cross-platform Text Expander written in Rust
+
+## Brim
+Desktop application to efficiently search large packet captures and Zeek logs
