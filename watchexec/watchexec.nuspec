@@ -87,15 +87,17 @@
 
         * [notify](https://github.com/passcod/notify) for doing most of the heavy-lifting
         * [globset](https://crates.io/crates/globset) for super-fast glob matching
+
+        *Please Note:* This is an automatically updated package.  If the package is outdated for more than two days, please let me know!
     </description>
     <projectUrl>https://github.com/watchexec/watchexec</projectUrl>
     <projectSourceUrl>https://github.com/watchexec/watchexec</projectSourceUrl>
     <bugTrackerUrl>https://github.com/watchexec/watchexec/issues</bugTrackerUrl>
-    <docsUrl>https://github.com/watchexec/watchexec/tree/master/doc</docsUrl>
+    <docsUrl>https://github.com/watchexec/watchexec/tree/main/doc</docsUrl>
     <packageSourceUrl>https://github.com/jonasw234/au-packages/tree/master/watchexec</packageSourceUrl>
     <tags>watchexec file notify automatically execute watcher monitor change</tags>
     <copyright></copyright>
-    <licenseUrl>https://github.com/watchexec/watchexec/blob/master/LICENSE</licenseUrl>
+    <licenseUrl>https://github.com/watchexec/watchexec/blob/main/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>https://github.com/watchexec/watchexec</releaseNotes>
   </metadata>
