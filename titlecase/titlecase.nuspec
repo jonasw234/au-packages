@@ -9,9 +9,9 @@
     <owners>Jonas A. Wendorf</owners>
     <summary>A tool and Rust crate for making text title case</summary>
     <description>
-        Title Case (titlecase)
+Title Case (titlecase)
 
-        titlecase is a small tool that capitalizes English text according to a style defined by John Gruber for post titles on his website Daring Fireball. titlecase runs on Linux, macOS, FreeBSD, NetBSD, and Windows. A dependency free, single-file binary is built for each supported platform for every release.
+titlecase is a small tool that capitalizes English text according to a style defined by John Gruber for post titles on his website Daring Fireball. titlecase runs on Linux, macOS, FreeBSD, NetBSD, and Windows. A dependency free, single-file binary is built for each supported platform for every release.
     </description>
     <projectUrl>https://github.com/wezm/titlecase</projectUrl>
     <projectSourceUrl>https://github.com/wezm/titlecase</projectSourceUrl>

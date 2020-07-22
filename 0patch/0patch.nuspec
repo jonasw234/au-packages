@@ -9,15 +9,15 @@
     <owners>Jonas A. Wendorf</owners>
     <summary>No more patching headaches</summary>
     <description>
-        0patch is a microscopic solution for a huge security problem.
+0patch is a microscopic solution for a huge security problem.
 
-        It provides miniature patches of code (“micropatches”) to computers and other devices worldwide in order to fix software vulnerabilities in various, even closed source products. With 0patch, there are no reboots or downtime when patching and no fear that a huge official update will break production.
+It provides miniature patches of code (“micropatches”) to computers and other devices worldwide in order to fix software vulnerabilities in various, even closed source products. With 0patch, there are no reboots or downtime when patching and no fear that a huge official update will break production.
 
-        Corporate users and administrators appreciate the lightness and simplicity of 0patch, as it is shortening the patch deployment time from months to just hours. Reviewing tiny 0patches is cheap, and the ability to instantly apply and remove them locally or remotely significantly simplifies production testing.
+Corporate users and administrators appreciate the lightness and simplicity of 0patch, as it is shortening the patch deployment time from months to just hours. Reviewing tiny 0patches is cheap, and the ability to instantly apply and remove them locally or remotely significantly simplifies production testing.
 
-        Software patching becomes virtually imperceptible.
+Software patching becomes virtually imperceptible.
 
-        *Please note that you need to create an account for this to work. Free accounts are available.*
+*Please note that you need to create an account for this to work. Free accounts are available.*
     </description>
     <projectUrl>https://0patch.com/</projectUrl>
     <bugTrackerUrl>https://0patch.com/contact.html</bugTrackerUrl>

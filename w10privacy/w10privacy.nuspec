@@ -9,15 +9,15 @@
     <owners>Jonas A. Wendorf</owners>
     <summary>W10Privacy – Privacy made easy</summary>
     <description>
-        # W10Privacy - for what
+# W10Privacy - for what
 
-        The by default highly questionable set options concerning privacy and data protection in Windows 10 brought me to the idea to develop this program. Microsoft generously enables everybody to change the concerning settings, but hides them in countless menus, where a normal user does not want to search for
+The by default highly questionable set options concerning privacy and data protection in Windows 10 brought me to the idea to develop this program. Microsoft generously enables everybody to change the concerning settings, but hides them in countless menus, where a normal user does not want to search for
 
-        The program should therefore be a help, to display the available settings relatively clearly and to set the desired options if necessary.
+The program should therefore be a help, to display the available settings relatively clearly and to set the desired options if necessary.
 
-        The primary focus is on settings for *Windows 10* and its apps (for example the new browser "Edge"). The program will be expanded gradually, if possible and available, with the corresponding Windows 8.1 features in the future.
+The primary focus is on settings for *Windows 10* and its apps (for example the new browser "Edge"). The program will be expanded gradually, if possible and available, with the corresponding Windows 8.1 features in the future.
 
-        W10Privacy is certainly no programming masterpiece, but meets my envisaged purpose. The software is still in an early development phase suggestions and requests will be gladly accepted and considered, if necessary, in the further development!
+W10Privacy is certainly no programming masterpiece, but meets my envisaged purpose. The software is still in an early development phase suggestions and requests will be gladly accepted and considered, if necessary, in the further development!
     </description>
     <projectUrl>https://www.winprivacy.de/english-home/</projectUrl>
     <bugTrackerUrl>https://www.winprivacy.de/english-home/contact/</bugTrackerUrl>

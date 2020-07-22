@@ -9,20 +9,20 @@
     <owners>Jonas A. Wendorf</owners>
     <summary>Desktop application to efficiently search large packet captures and Zeek logs.</summary>
     <description>
-        Brim is an open source desktop application for security and network specialists. Brim makes it easy to search and analyze data from:
+Brim is an open source desktop application for security and network specialists. Brim makes it easy to search and analyze data from:
 
-        * packet captures, like those created by Wireshark, and
-        * structured logs, especially from the Zeek network analysis framework.
+* packet captures, like those created by Wireshark, and
+* structured logs, especially from the Zeek network analysis framework.
 
-        Brim is especially useful to security and network operators that need to handle large packet captures, especially those that are cumbersome for Wireshark, tshark, or other packet analyzers.
+Brim is especially useful to security and network operators that need to handle large packet captures, especially those that are cumbersome for Wireshark, tshark, or other packet analyzers.
 
-        Brim is built from open source components, including:
+Brim is built from open source components, including:
 
-        * zq, a structured log query engine;
-        * Electron and React for multi-platform UI;
-        * Zeek, to generate network analysis data from packet capture files.
+* zq, a structured log query engine;
+* Electron and React for multi-platform UI;
+* Zeek, to generate network analysis data from packet capture files.
 
-        *Please Note:* This is an automatically updated package.  If the package is outdated for more than two days, please let me know!
+*Please Note:* This is an automatically updated package.  If the package is outdated for more than two days, please let me know!
     </description>
     <projectUrl>https://www.brimsecurity.com/</projectUrl>
     <projectSourceUrl>https://github.com/brimsec/brim</projectSourceUrl>
