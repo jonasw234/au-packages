@@ -34,3 +34,6 @@ Cross-platform Text Expander written in Rust
 
 ## Brim
 Desktop application to efficiently search large packet captures and Zeek logs
+
+## BruteShark
+Network Forensic Analysis Tool (NFAT) that performs deep processing and inspection of network traffic (mainly PCAP files). It includes: password extracting, building a network map, reconstruct TCP sessions, extract hashes of encrypted passwords and even convert them to a Hashcat format in order to perform an offline Brute Force attack.
