@@ -11,4 +11,6 @@ $packageArgs = @{
   silentArgs   = '--silent'
 }
 
+$AllProtocols = [System.Net.SecurityProtocolType]'Tls11,Tls12'
+[System.Net.ServicePointManager]::SecurityProtocol = $AllProtocols
 Install-ChocolateyPackage @packageArgs
