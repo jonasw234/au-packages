@@ -4,7 +4,7 @@
   <metadata>
     <id>bruteshark</id>
     <title>BruteShark</title>
-    <version>1.0.5</version>
+    <version>1.1.0</version>
     <authors>Oded Shimon</authors>
     <owners>Jonas A. Wendorf</owners>
     <summary>Network Analysis Tool</summary>
@@ -60,6 +60,7 @@ Please ⭐️[this repository](https://github.com/odedshimon/BruteShark) if this
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>https://github.com/odedshimon/BruteShark/releases</releaseNotes>
     <dependencies>
+        <dependency id="dotnetcore" version="[3.0.0,)" />
     </dependencies>
   </metadata>
   <files>
