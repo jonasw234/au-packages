@@ -60,7 +60,6 @@ Please ⭐️[this repository](https://github.com/odedshimon/BruteShark) if this
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>https://github.com/odedshimon/BruteShark/releases</releaseNotes>
     <dependencies>
-        <dependency id="dotnetcore" version="[3.0.0,)" />
     </dependencies>
   </metadata>
   <files>
