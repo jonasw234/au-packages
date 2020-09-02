@@ -62,6 +62,8 @@ Please ⭐️[this repository](https://github.com/odedshimon/BruteShark) if this
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>https://github.com/odedshimon/BruteShark/releases</releaseNotes>
     <dependencies>
+      <dependency id="wireshark" version="[3.2.4,)" />
+      <dependency id="dotnetcore" version="[3.1.7,)" />
     </dependencies>
   </metadata>
   <files>
