@@ -4,7 +4,7 @@
   <metadata>
     <id>espanso</id>
     <title>espanso</title>
-    <version>0.7.1</version>
+    <version>0.7.2</version>
     <authors>Federico Terzi</authors>
     <owners>Jonas A. Wendorf</owners>
     <summary>Cross-platform Text Expander written in Rust</summary>
