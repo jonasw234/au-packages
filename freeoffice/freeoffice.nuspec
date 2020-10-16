@@ -33,6 +33,7 @@ FreeOffice is a complete Office suite with a word processor, a spreadsheet appli
     <copyright>SoftMaker</copyright>
     <licenseUrl>https://www.freeoffice.com/en/download/applications</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>https://www.freeoffice.com/en/download/servicepacks</releaseNotes>
     <dependencies>
     </dependencies>
   </metadata>
