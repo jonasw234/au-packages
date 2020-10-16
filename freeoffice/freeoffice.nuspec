@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>freeoffice</id>
-    <title>SoftMaker FeeOffice</title>
+    <title>SoftMaker FreeOffice</title>
     <version>2018.978</version>
     <authors>SoftMaker</authors>
     <owners>Jonas A. Wendorf</owners>
