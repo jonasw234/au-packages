@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>w10privacy</id>
-    <title>w10privacy</title>
+    <title>W10Privacy</title>
     <version>3.5.1.0</version>
     <authors>Bernd Schuster</authors>
     <owners>Jonas A. Wendorf</owners>
@@ -28,6 +28,7 @@ W10Privacy is certainly no programming masterpiece, but meets my envisaged purpo
     <licenseUrl>http://creativecommons.org/licenses/by-nc-nd/4.0/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>https://www.winprivacy.de/deutsch-start/versionshistorie/</releaseNotes>
+    <iconUrl>https://u.jimcdn.com/cms/o/sf91b3285d9193eec/img/favicon.png</iconUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
