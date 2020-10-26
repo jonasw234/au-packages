@@ -30,6 +30,7 @@ Software patching becomes virtually imperceptible.
     <licenseUrl>https://0patch.com/files/License_agreement.rtf</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>https://0patch.com/patches.html</releaseNotes>
+    <iconUrl>https://0patch.com/img/favicon/apple-touch-icon.png</iconUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
