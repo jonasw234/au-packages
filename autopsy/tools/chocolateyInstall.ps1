@@ -5,11 +5,11 @@ $packageName = $env:chocolateyPackageName
 $packageArgs = @{
     packageName    = $packageName
     fileType       = 'msi'
-    url            = 'https://github.com/sleuthkit/autopsy/releases/download/autopsy-4.16.0/autopsy-4.16.0-32bit.msi'
-    checksum       = '6f51a2528041b681e9fe30dbdb1c35df243077604facfc3c7e0546e4bed554bf'
+    url            = 'https://github.com/sleuthkit/autopsy/releases/download/autopsy-4.17.0/autopsy-4.17.0-32bit.msi'
+    checksum       = 'c5ccaed3eaa72ccaf281c079a2ac9f19aac4b529e976457dc09e0ef21b743ea6'
     checksumType   = 'sha256'
-    url64bit       = 'https://github.com/sleuthkit/autopsy/releases/download/autopsy-4.16.0/autopsy-4.16.0-64bit.msi'
-    checksum64     = '2799ded6a37f1068bd9a53e8664cd8130b7cef761d59919fe6bcd6d248a396ea'
+    url64bit       = 'https://github.com/sleuthkit/autopsy/releases/download/autopsy-4.17.0/autopsy-4.17.0-64bit.msi'
+    checksum64     = '8c09f1fc91eacab438df8116fc2828705e2853d31c8997d8d246499d6084e321'
     checksumType64 = 'sha256'
     silentArgs     = '/qn /norestart'
 }
