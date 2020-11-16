@@ -14,4 +14,9 @@ $packageArgs = @{
     silentArgs     = '/qn /norestart'
 }
 
+$uninstall_key = Get-UninstallRegistryKey -SoftwareName 'Autopsy'
+if ($uninstall_key) {
+    # Autopsy doesn’t update, it just installs a second version next to the existing one.
+    Uninstall-ChocolateyPackage $packageName
+}
 Install-ChocolateyPackage @packageArgs
