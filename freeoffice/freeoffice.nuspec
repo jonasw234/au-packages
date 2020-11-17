@@ -22,7 +22,9 @@ FreeOffice is a complete Office suite with a word processor, a spreadsheet appli
 - macOS 10.10 or higher
 - Any PC-based Linux (32 or 64 bits)
 
-*Please Note* This is an automatically updated package.  If the package is outdated for more than two days, please let me know
+*Please Note* This is an automatically updated package.  If the package is outdated for more than two days, please let me know.
+
+*Warning* Since the download link stays the same for each version, sometimes the checksum verification will fail.  In that case either use the `--ignore-checksum` parameter or look for the updated and not yet approved package that has the correct checksum.
     </description>
     <iconUrl>https://www.freeoffice.com/images/favicons/apple-touch-icon-180x180.png</iconUrl>
     <projectUrl>https://www.freeoffice.com/en/</projectUrl>
