@@ -18,6 +18,8 @@ The program should therefore be a help, to display the available settings relati
 The primary focus is on settings for *Windows 10* and its apps (for example the new browser "Edge"). The program will be expanded gradually, if possible and available, with the corresponding Windows 8.1 features in the future.
 
 W10Privacy is certainly no programming masterpiece, but meets my envisaged purpose. The software is still in an early development phase suggestions and requests will be gladly accepted and considered, if necessary, in the further development!
+
+*Please Note:* This is an automatically updated package.  If the package is outdated for more than two days, please let me know!
     </description>
     <projectUrl>https://www.winprivacy.de/english-home/</projectUrl>
     <bugTrackerUrl>https://www.winprivacy.de/english-home/contact/</bugTrackerUrl>
