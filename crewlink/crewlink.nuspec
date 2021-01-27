@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>crewlink</id>
+    <title>CrewLink</title>
+    <version>2.0.1</version>
+    <authors>ottomated</authors>
+    <owners>Jonas A. Wendorf</owners>
+    <summary>Free, open, Among Us Proximity Chat</summary>
+    <description>
+## About The Project
+
+This project implements proximity voice chat in Among Us. Everyone in an Among Us lobby with this program running will be able to communicate over voice in-game, with no third-party programs required. Spatial audio ensures that you can only hear people close to you.
+
+## Installation
+
+Download the latest version from [releases](https://github.com/ottomated/CrewLink/releases) and run the `CrewLink-Setup-X.X.X.exe` file. You may get antivirus warnings, because this program hooks into the Among Us process to read game data.
+
+If you can, you should use a private server by deploying [this repository](https://github.com/ottomated/CrewLink-server).
+
+### Setup Instructions (click)
+
+[![Setup Video](https://img.youtube.com/vi/_8F4f5iQEIc/0.jpg)](https://www.youtube.com/watch?v=_8F4f5iQEIc "CrewLink Setup Instructions")
+
+## Development
+
+You only need to follow the below instructions if you are trying to modify this software. Otherwise, please download the latest version from the [github releases](https://github.com/ottomated/CrewLink/releases).
+
+Server code is located at [ottomated/CrewLink-server](https://github.com/ottomated/CrewLink-server). Please use a local server for development purposes.
+
+### Prerequisites
+
+This is an example of how to list things you need to use the software and how to install them.
+* [Python](https://www.python.org/downloads/)
+* [node.js](https://nodejs.org/en/download/)
+* yarn
+```sh
+npm install yarn -g
+```
+
+### Setup
+
+1. Clone the repo
+```sh
+git clone https://github.com/ottomated/CrewLink.git
+cd CrewLink
+```
+2. Install NPM packages
+```sh
+yarn install
+```
+3. Run the project
+```JS
+yarn dev
+```
+
+## Contributing
+
+Any contributions you make are greatly appreciated.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License
+
+Distributed under the GNU General Public License v3.0. See `LICENSE` for more information.
+
+[license-shield]: https://img.shields.io/github/license/ottomated/CrewLink.svg?style=flat-square
+[license-url]: https://github.com/ottomated/CrewLink-server/blob/master/LICENSE
+[appveyor-shield]: https://img.shields.io/appveyor/build/ottomated/crewlink
+[appveyor-url]: https://ci.appveyor.com/project/ottomated/crewlink
+
+*To change the installation directory* use the parameter `--install-arguments='"/D=C:\Users\USERNAME\AppData\Local\Programs\crewlink"'`
+*Please Note:* This is an automatically updated package.  If the package is outdated for more than two days, please let me know!
+    </description>
+    <iconUrl>https://raw.githubusercontent.com/ottomated/CrewLink/master/logo.png</iconUrl>
+    <projectUrl>https://github.com/ottomated/CrewLink</projectUrl>
+    <projectSourceUrl>https://github.com/ottomated/CrewLink</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/ottomated/CrewLink/issues</bugTrackerUrl>
+    <packageSourceUrl>https://github.com/jonasw234/au-packages/tree/master/crewlink</packageSourceUrl>
+    <tags>among us proximity voice chat push to talk game mod modification spatial audio</tags>
+    <copyright>https://github.com/ottomated/CrewLink</copyright>
+    <licenseUrl>https://github.com/ottomated/CrewLink/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>https://github.com/ottomated/CrewLink/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
