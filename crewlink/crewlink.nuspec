@@ -9,6 +9,14 @@
     <owners>Jonas A. Wendorf</owners>
     <summary>Free, open, Among Us Proximity Chat</summary>
     <description>
+![CrewLink](https://raw.githubusercontent.com/ottomated/CrewLink/master/logo.png "CrewLink")
+
+**CrewLink**
+
+Free, open, Among Us proximity voice chat. 
+
+**[DONATE TO THE PROJECT](https://paypal.me/ottomated)** (all donations will be used for server costs or paying for college) 
+
 ## About The Project
 
 This project implements proximity voice chat in Among Us. Everyone in an Among Us lobby with this program running will be able to communicate over voice in-game, with no third-party programs required. Spatial audio ensures that you can only hear people close to you.
@@ -82,7 +90,7 @@ Distributed under the GNU General Public License v3.0. See `LICENSE` for more in
     <projectSourceUrl>https://github.com/ottomated/CrewLink</projectSourceUrl>
     <bugTrackerUrl>https://github.com/ottomated/CrewLink/issues</bugTrackerUrl>
     <packageSourceUrl>https://github.com/jonasw234/au-packages/tree/master/crewlink</packageSourceUrl>
-    <tags>among us proximity voice chat push to talk game mod modification spatial audio</tags>
+    <tags>amongus among-us proximity voice chat push to talk game mod modification spatial audio</tags>
     <copyright>https://github.com/ottomated/CrewLink</copyright>
     <licenseUrl>https://github.com/ottomated/CrewLink/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
