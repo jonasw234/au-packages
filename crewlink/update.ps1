@@ -7,7 +7,7 @@ function global:au_SearchReplace {
    @{
         ".\tools\chocolateyInstall.ps1" = @{
             "(?i)(^\s*url\s*=\s*)('.*')"      = "`$1'$($Latest.URL)'"
-            "(?i)(^\s*checksum\s*=\s*)('.*')" = "`$1'$($Latest.Checksum)'"
+            "(?i)(^\s*checksum\s*=\s*)('.*')" = "`$1'$($Latest.Checksum32)'"
         }
     }
 }
@@ -18,11 +18,11 @@ function global:au_GetLatest {
 
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 
-    $re      = '^CrewLink-Setup-\d+(\.\d+)*.exe$'
-    $domain  = $releases -split '(?<=//.+)/' | select -First 1
-    $url     = $download_page.links | ? href -match $re | select -First 1 -expand href
-    $url     = $url | % {$domain + $_ }
-    $version = $download_page.links | ? href -match 'v\d(\.\d+)*$' | select -First 1 -expand title
+    $re      = 'CrewLink-Setup-\d+(\.\d+)*.exe'
+    $domain  = $releases -split '(?<=//.+)/' | Select-Object -First 1
+    $url     = $download_page.links | Where-Object href -match $re | Select-Object -First 1 -expand href
+    $url     = $url | ForEach-Object {$domain + $_ }
+    $version = $download_page.links | Where-Object href -match 'v\d(\.\d+)*$' | Select-Object -First 1 -expand title
     $version = $version.substring(1)
 
     @{
@@ -31,4 +31,4 @@ function global:au_GetLatest {
     }
 }
 
-update
+update -ChecksumFor all
