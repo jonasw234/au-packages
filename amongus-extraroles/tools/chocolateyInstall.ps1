@@ -8,7 +8,7 @@ $packageArgs = @{
   packageName   = $packageName
   fileType      = 'zip'
   url           = 'https://github.com/NotHunter101/ExtraRolesAmongUs/releases/download/v1.3.0/Role.Mod.v.1.3.0.zip'
-  checksum      = ''
+  checksum      = '9ef048f0d664e499ec06fe29391819359c2689d87eb898a173fbc0f37e674a4b'
   checksumType  = 'sha256'
   unzipLocation = $modDirectory
 }
