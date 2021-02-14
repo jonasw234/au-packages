@@ -7,7 +7,7 @@ function global:au_SearchReplace {
    @{
         ".\tools\chocolateyInstall.ps1" = @{
             "(?i)(^\s*url\s*=\s*)('.*')"      = "`$1'$($Latest.URL)'"
-            "(?i)(^\s*checksum\s*=\s*)('.*')" = "`$1'$($Latest.Checksum)'"
+            "(?i)(^\s*checksum\s*=\s*)('.*')" = "`$1'$($Latest.Checksum32)'"
         }
     }
 }
@@ -22,8 +22,7 @@ function global:au_GetLatest {
     $domain  = $releases -split '(?<=//.+)/' | Select-Object -First 1
     $url     = $download_page.links | Where-Object href -match $re | Select-Object -First 1 -expand href
     $url     = $url | ForEach-Object {$domain + $_ }
-    $version = $download_page.links | Where-Object href -match 'v\d(\.\d+)*$' | Select-Object -First 1 -expand title
-    $version = $version.substring(1)
+    $version = $download_page.links | Where-Object href -match '\d+(\.\d+)*$' | Select-Object -First 1 -expand title
 
     @{
         URL     = $url
@@ -31,4 +30,4 @@ function global:au_GetLatest {
     }
 }
 
-update
+update -ChecksumFor all
