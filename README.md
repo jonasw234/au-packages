@@ -40,3 +40,15 @@ Network Forensic Analysis Tool (NFAT) that performs deep processing and inspecti
 
 ## FreeOffice
 The best free alternative to Microsoft Office.
+
+## CrewLink
+Free, open, Among Us Proximity Chat
+
+## Among Us Extra Roles
+A BepInEx mod for Among Us that adds 4 new roles into the game. This mod can be played on Innersloth servers. 
+
+## USBPcap
+USB packet capture for Windows
+
+## Raccine
+A Simple Ransomware Vaccine (package is still WIP)
