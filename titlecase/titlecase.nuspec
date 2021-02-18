@@ -18,7 +18,7 @@ titlecase is a small tool that capitalizes English text according to a style def
     <bugTrackerUrl>https://github.com/wezm/titlecase/issues</bugTrackerUrl>
     <packageSourceUrl>https://github.com/jonasw234/au-packages/tree/master/titlecase</packageSourceUrl>
     <tags>titlecase converter capitalization lower case upper case</tags>
-    <copyright></copyright>
+    <copyright>Wesley Moore</copyright>
     <licenseUrl>https://github.com/wezm/titlecase/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>https://github.com/wezm/titlecase/releases</releaseNotes>

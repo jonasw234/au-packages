@@ -64,7 +64,7 @@ Licensing:
     <bugTrackerUrl>https://github.com/desowin/usbpcap/issues</bugTrackerUrl>
     <packageSourceUrl>https://github.com/jonasw234/au-packages/tree/master/usbpcap</packageSourceUrl>
     <tags>usb packet capture sniffing wireshark</tags>
-    <copyright>https://desowin.org/usbpcap/</copyright>
+    <copyright>Tomasz Moń</copyright>
     <licenseUrl>https://github.com/desowin/usbpcap/blob/master/README</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>https://github.com/desowin/usbpcap/releases</releaseNotes>

@@ -30,7 +30,7 @@ Brim is built from open source components, including:
     <bugTrackerUrl>https://github.com/brimsec/brim/issues</bugTrackerUrl>
     <packageSourceUrl>https://github.com/jonasw234/au-packages/tree/master/brim</packageSourceUrl>
     <tags>wireshark zeek packet capture structured logs network analysis security</tags>
-    <copyright>https://www.brimsecurity.com/</copyright>
+    <copyright>Brim Security</copyright>
     <licenseUrl>https://github.com/brimsec/brim/blob/master/LICENSE.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>https://github.com/brimsec/brim/releases</releaseNotes>

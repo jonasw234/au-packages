@@ -244,7 +244,7 @@ The right pronounciation is "Rax-Een".
     <docsUrl>https://github.com/Neo23x0/Raccine/blob/main/README.md</docsUrl>
     <packageSourceUrl>https://github.com/jonasw234/au-packages/tree/master/raccine</packageSourceUrl>
     <tags>ransomware vaccine shadow copy service vssadmin protection malware yara security</tags>
-    <copyright></copyright>
+    <copyright>Florian Roth</copyright>
     <licenseUrl>https://github.com/Neo23x0/Raccine/blob/main/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <dependencies>

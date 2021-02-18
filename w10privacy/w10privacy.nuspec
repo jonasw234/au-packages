@@ -26,7 +26,7 @@ W10Privacy is certainly no programming masterpiece, but meets my envisaged purpo
     <docsUrl>https://www.winprivacy.de/english-home/instructions-1/</docsUrl>
     <packageSourceUrl>https://github.com/jonasw234/au-packages/tree/master/w10privacy</packageSourceUrl>
     <tags>windows 10 privacy protection disable tracking</tags>
-    <copyright></copyright>
+    <copyright>Bernd Schuster</copyright>
     <licenseUrl>http://creativecommons.org/licenses/by-nc-nd/4.0/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>https://www.winprivacy.de/deutsch-start/versionshistorie/</releaseNotes>

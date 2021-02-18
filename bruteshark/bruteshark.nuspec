@@ -65,7 +65,7 @@ Please ⭐️[this repository](https://github.com/odedshimon/BruteShark) if this
       <dependency id="wireshark" version="[3.2.4,)" />
       <dependency id="dotnetcore" version="[3.1.7,)" />
     </dependencies>
-    <iconUrl>https://raw.githubusercontent.com/odedshimon/BruteShark/master/BruteShark/BruteSharkDesktop/BruteSharkIcon.ico</iconUrl>
+    <iconUrl>https://cdn.statically.io/gh/odedshimon/BruteShark/master/BruteShark/BruteSharkDesktop/BruteSharkIcon.ico</iconUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

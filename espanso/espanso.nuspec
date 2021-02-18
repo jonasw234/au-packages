@@ -93,7 +93,7 @@ and is licensed under the [GPL-3.0 license](https://github.com/federico-terzi/es
     <docsUrl>https://espanso.org/docs/</docsUrl>
     <packageSourceUrl>https://github.com/jonasw234/au-packages/tree/master/espanso</packageSourceUrl>
     <tags>text expander keyword replace system-wide typing scriptable</tags>
-    <copyright></copyright>
+    <copyright>Federico Terzi</copyright>
     <licenseUrl>https://github.com/federico-terzi/espanso/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>https://github.com/federico-terzi/espanso/releases</releaseNotes>

@@ -91,7 +91,7 @@ Distributed under the GNU General Public License v3.0. See `LICENSE` for more in
     <bugTrackerUrl>https://github.com/ottomated/CrewLink/issues</bugTrackerUrl>
     <packageSourceUrl>https://github.com/jonasw234/au-packages/tree/master/crewlink</packageSourceUrl>
     <tags>amongus among-us proximity voice chat push to talk game mod modification spatial audio</tags>
-    <copyright>ottomated 2021</copyright>
+    <copyright>ottomated</copyright>
     <licenseUrl>https://github.com/ottomated/CrewLink/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>https://github.com/ottomated/CrewLink/releases</releaseNotes>

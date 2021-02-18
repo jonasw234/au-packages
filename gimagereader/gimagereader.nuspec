@@ -18,10 +18,10 @@ gImageReader is a simple Gtk/Qt front-end to tesseract-ocr.
     <docsUrl>https://github.com/manisandro/gImageReader/wiki/FAQ</docsUrl>
     <packageSourceUrl>https://github.com/jonasw234/au-packages/tree/master/gimagereader</packageSourceUrl>
     <tags>ocr optical-character-recognition tesseract image reader</tags>
-    <copyright></copyright>
+    <copyright>Sandro Mani</copyright>
     <licenseUrl>https://github.com/manisandro/gImageReader/blob/master/COPYING</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://raw.githubusercontent.com/manisandro/gImageReader/master/packaging/win32/gimagereader.ico</iconUrl>
+    <iconUrl>https://cdn.statically.io/gh/manisandro/gImageReader/master/packaging/win32/gimagereader.ico</iconUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
