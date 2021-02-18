@@ -85,13 +85,13 @@ Distributed under the GNU General Public License v3.0. See `LICENSE` for more in
 *To change the installation directory* use the parameter `--install-arguments='"/D=C:\Users\USERNAME\AppData\Local\Programs\crewlink"'`
 *Please Note:* This is an automatically updated package.  If the package is outdated for more than two days, please let me know!
     </description>
-    <iconUrl>https://raw.githubusercontent.com/ottomated/CrewLink/master/logo.png</iconUrl>
+    <iconUrl>https://cdn.statically.io/gh/ottomated/CrewLink/master/logo.png</iconUrl>
     <projectUrl>https://github.com/ottomated/CrewLink</projectUrl>
     <projectSourceUrl>https://github.com/ottomated/CrewLink</projectSourceUrl>
     <bugTrackerUrl>https://github.com/ottomated/CrewLink/issues</bugTrackerUrl>
     <packageSourceUrl>https://github.com/jonasw234/au-packages/tree/master/crewlink</packageSourceUrl>
     <tags>amongus among-us proximity voice chat push to talk game mod modification spatial audio</tags>
-    <copyright>https://github.com/ottomated/CrewLink</copyright>
+    <copyright>ottomated 2021</copyright>
     <licenseUrl>https://github.com/ottomated/CrewLink/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>https://github.com/ottomated/CrewLink/releases</releaseNotes>
