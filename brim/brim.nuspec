@@ -9,6 +9,8 @@
     <owners>Jonas A. Wendorf</owners>
     <summary>Desktop application to efficiently search large packet captures and Zeek logs.</summary>
     <description>
+*Please Note:* This package is inofficial and in no way affiliated with Brim Security.  Failing tests for this package don’t necessarily mean that there is anything wrong with their installer!
+
 Brim is an open source desktop application for security and network specialists. Brim makes it easy to search and analyze data from:
 
 * packet captures, like those created by Wireshark, and
