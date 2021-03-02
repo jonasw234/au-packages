@@ -1,2 +1,2 @@
-unzipLocation = Split-Path $MyInvocation.MyCommand.Definition
-Start-Process "cmd.exe /c set SELECTED_OPTION=UNINSTALL && $unzipLocation\Raccine\install-raccine.bat"
+$installer = "\tools\Raccine\install-raccine.bat"
+Start-Process -FilePath "$env:ChocolateyPackageFolder$installer" -ArgumentList @("UNINSTALL")

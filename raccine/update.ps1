@@ -6,7 +6,7 @@ function global:au_SearchReplace {
    @{
         ".\tools\chocolateyInstall.ps1" = @{
             "(?i)(^\s*url\s*=\s*)('.*')"   = "`$1'$($Latest.URL)'"
-            "(?i)(^\s*checksum\s*=\s*)('.*')" = "`$1'$($Latest.Checksum)'"
+            "(?i)(^\s*checksum\s*=\s*)('.*')" = "`$1'$($Latest.Checksum32)'"
         }
     }
 }
@@ -17,13 +17,13 @@ function global:au_GetLatest {
 
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 
-    $url64   = $download_page.links | ? href -match '^Raccine\.zip$' | % href | select -First 1
+    $url     = $download_page.links | Where-Object href -match '^Raccine\.zip$' | ForEach-Object href | Select-Object -First 1
     $version = (Split-Path ( Split-Path $url64 ) -Leaf).Replace('v', '')
 
     @{
-        URL     = 'https://github.com' + $url64
+        URL     = 'https://github.com' + $url
         Version = $version
     }
 }
 
-update
+update -ChecksumFor all
