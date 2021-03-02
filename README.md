@@ -51,4 +51,4 @@ A BepInEx mod for Among Us that adds 4 new roles into the game. This mod can be 
 USB packet capture for Windows
 
 ## Raccine
-A Simple Ransomware Vaccine (package is still WIP)
+A Simple Ransomware Vaccine
