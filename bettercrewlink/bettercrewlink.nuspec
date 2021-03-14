@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>bettercrewlink</id>
+    <title>BetterCrewLink</title>
+    <version>2.3.6</version>
+    <authors>OhMyGuus</authors>
+    <owners>Jonas A. Wendorf</owners>
+    <summary>Free, open, Among Us Proximity Chat</summary>
+    <description>
+![CrewLink](https://raw.githubusercontent.com/ottomated/CrewLink/master/logo.png "CrewLink")
+
+# BetterCrewLink a Crewlink fork with extra features & better support
+Free, open, Among Us proximity voice chat.
+
+[Report Bug](https://github.com/OhMyGuus/CrewLink/issues)  
+[Request Feature](https://github.com/OhMyGuus/CrewLink/issues)  
+[DONATE TO BETTERCREWLINK](https://www.paypal.com/donate?hosted_button_id=KS43BDTGN76JQ)  (all donations will be used for the apple developer license and extra servers)  
+[Donate to ottomated (offical crewlink)](https://paypal.me/ottomated)
+
+**Notes:**
+
+- For issues with this fork u can message me on discord (ThaGuus#2140) and I will do my best to resolve it.
+- To get the most of BetterCrewLink use the voice server `https://bettercrewl.ink`
+
+[![Discord](https://i.imgur.com/XpnBhTW.png "Join The Chat Discord")](https://discord.gg/qDqTzvj4SH)]
+
+## Table of Contents
+* [Extra features in this fork](#extra-features-in-this-fork)
+* [About the Project](#about-the-project)
+* [Installation](#installation)
+* [Development](#development)
+  * [Prerequisites](#prerequisites)
+  * [Setup](#setup)
+* [Contributing](#contributing)
+* [License](#license)
+
+## Extra features/fixes in this fork
+```
+- Volume sliders
+- It doesn't break when someone leaves/disconnects
+- It works on any network even with upnp disabled (Strict NAT)
+- More fun settings like hearing through cameras 
+- You can actually disable the overlay
+- 32bit support, windows 7 support
+- U can change the volume of alive players after u died. 
+- U can set bettercrewlink to topmost
+- Settings actually sync between players and not half. 
+- CPU usage is lower than original Crewlink. 
+- U can actually press the mute key/deafen key while clicked on Bettercrewlink 
+- Your mouse doesn't start to lagg because of the buggy input hook. 
+- Changing the speaker setting does actually something unlike original crewlink where it is always using the default output. 
+- compatible with Crewlink 2.0 
+- Microphone echo cancellation 
+- Microphone noise suppression. 
+- more overlay positions and you can set the overlay to the top/bottom and you can set it so it shows everyone even when they aren't talking
+- You can set the lobby up so only death people can talk (normal lobbies but then with death talk)
+
+- Support for mobile (BETA)
+```
+
+***If I missed something u can dm me it so I can add it ***
+
+## About The Project
+This project implements proximity voice chat in Among Us. Everyone in an Among Us lobby with this program running will be able to communicate over voice in-game, with no third-party programs required. Spatial audio ensures that you can only hear people close to you.
+
+## Development
+You only need to follow the below instructions if you are trying to modify this software. Otherwise, please download the latest version from the [github releases](https://github.com/OhMyGuus/CrewLink/releases).
+
+Server code is located at [OhMyGuus/BetterCrewLink-server](https://github.com/OhMyGuus/BetterCrewLink-server). Please use a local server for development purposes.
+
+### Prerequisites
+This is an example of how to list things you need to use the software and how to install them.
+* [Python](https://www.python.org/downloads/)
+* [node.js](https://nodejs.org/en/download/)
+* yarn
+```sh
+npm install yarn -g
+```
+
+### Setup
+1. Clone the repo
+```sh
+git clone https://github.com/OhMyGuus/BetterCrewLink.git
+cd CrewLink
+```
+2. Install NPM packages
+```sh
+yarn install
+```
+3. Run the project
+```JS
+yarn dev
+```
+
+## Contributing
+Any contributions you make are greatly appreciated.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License
+Distributed under the GNU General Public License v3.0. See `LICENSE` for more information.
+
+[license-shield]: https://img.shields.io/github/license/OhMyGuus/BetterCrewLink.svg?style=flat-square
+[license-url]: https://github.com/OhMyGuus/BetterCrewLink/blob/master/LICENSE
+[appveyor-shield]: https://img.shields.io/appveyor/build/OhMyGuus/bettercrewlink
+[appveyor-url]: https://ci.appveyor.com/project/OhMyGuus/bettercrewlink
+[paypal-url]: https://www.paypal.com/donate?hosted_button_id=KS43BDTGN76JQ
+[paypal-shield]: https://img.shields.io/badge/Donate-PayPal-green.svg
+
+*To change the installation directory* use the parameter `--install-arguments='"/D=C:\Users\USERNAME\AppData\Local\Programs\bettercrewlink"'`
+*Please Note:* This is an automatically updated package.  If the package is outdated for more than two days, please let me know!
+    </description>
+    <iconUrl>https://cdn.statically.io/gh/ottomated/CrewLink/master/logo.png</iconUrl>
+    <projectUrl>https://github.com/OhMyGuus/BetterCrewLink</projectUrl>
+    <projectSourceUrl>https://github.com/OhMyGuus/BetterCrewLink</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/OhMyGuus/BetterCrewLink/issues</bugTrackerUrl>
+    <packageSourceUrl>https://github.com/jonasw234/au-packages/tree/master/bettercrewlink</packageSourceUrl>
+    <tags>amongus among-us proximity voice chat push to talk game mod modification spatial audio</tags>
+    <copyright>ottomated</copyright>
+    <licenseUrl>https://github.com/OhMyGuus/BetterCrewLink/blob/nightly/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>https://github.com/OhMyGuus/BetterCrewLink/releases/tag/v2.3.6</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
