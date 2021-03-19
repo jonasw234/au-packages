@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>obsidian</id>
+    <title>Obsidian</title>
+    <version>0.11.5</version>
+    <authors>Obsidian.md</authors>
+    <owners>Jonas A. Wendorf</owners>
+    <summary>Obsidian is a powerful knowledge base that works on top of a local folder of plain text Markdown files. </summary>
+    <description>
+# A second brain, for you, forever.
+
+Obsidian is a powerful knowledge base that works on top of a local folder of plain text Markdown files.
+
+![Obsidian](https://obsidian.md/images/screenshot.png "Obsidian")
+
+The human brain is non-linear: we jump from idea to idea, all the time. Your second brain should work the same.
+
+In Obsidian, making and following \[\[connections\]\] is frictionless. Tend to your notes like a gardener; at the end of the day, sit back and marvel at your own knowledge graph.
+
+Note-taking is incredibly personal. Tried every app, but there's always something not quite right? You deserve better.
+
+Obsidian is built to be extensible. With [22 core plugins](https://publish.obsidian.md/help/Plugins/List%20of%20plugins) and [116 community plugins](https://help.obsidian.md/Advanced+topics/Third-party+plugins#Discover+and+install+community+plugins), set up your own toolkit and get running in minutes.
+
+You'll even be able to install third party plugins or build your own once Obsidian reaches v1.0. Sky's the limit.
+
+In our age when cloud services can [shut](https://techcrunch.com/2013/07/31/evernote-competitor-catch-com-shuts-down-its-note-taking-apps-company-heading-in-different-direction/) [down](https://www.theverge.com/2014/5/22/5741602/one-time-evernote-pinterest-rival-springpad-to-close-its-doors), [get](https://gadgets.ndtv.com/apps/news/microsoft-to-do-new-features-wunderlist-shuts-down-2224833) [bought](https://www.theverge.com/2012/3/12/2865638/twitter-acquires-posterous-blogging-platform), or [change privacy policy](https://techcrunch.com/2016/12/14/evernotes-new-privacy-policy-allows-employees-to-read-your-notes/) any day, the last thing you want is proprietary formats and data lock-in.
+
+With Obsidian, your data sits in a local folder. Never leave your life's work held hostage in the cloud again.
+
+Plain text Markdown also gives you the unparalleled interoperability to use any kind of sync, encryption, or data processing that works with plain text files.
+
+*To change the installation directory* use the parameter `--install-arguments='"/D=C:\Users\USERNAME\AppData\Local\Obsidian"'`
+*Please Note:* This is an automatically updated package.  If the package is outdated for more than two days, please let me know!
+    </description>
+    <iconUrl>https://obsidian.md/favicon.ico</iconUrl>
+    <projectUrl>https://obsidian.md/</projectUrl>
+    <bugTrackerUrl>https://forum.obsidian.md/c/bug-reports</bugTrackerUrl>
+    <packageSourceUrl>https://github.com/jonasw234/au-packages/tree/master/obsidian</packageSourceUrl>
+    <tags>markdown editor note keeping wiki</tags>
+    <copyright>Obsidian</copyright>
+    <licenseUrl>https://obsidian.md/eula</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>https://forum.obsidian.md/c/announcements</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
