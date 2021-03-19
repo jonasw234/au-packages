@@ -14,6 +14,6 @@ Install-ChocolateyZipPackage @packageArgs
 
 $installer = "\tools\Raccine\install-raccine.bat"
 # It is recommended to completely uninstall first
-Start-Process -FilePath "$env:ChocolateyPackageFolder$installer" -ArgumentList @("UNINSTALL") -Wait
+Start-ChocolateyProcessAsAdmin -FilePath "$env:ChocolateyPackageFolder$installer" -ArgumentList @("UNINSTALL") -Wait
 # And only install afterwards
-Start-Process -FilePath "$env:ChocolateyPackageFolder$installer" -ArgumentList @("FULL")
+Start-ChocolateyProcessAsAdmin -FilePath "$env:ChocolateyPackageFolder$installer" -ArgumentList @("FULL")
