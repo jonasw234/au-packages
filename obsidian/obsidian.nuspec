@@ -34,7 +34,7 @@ Plain text Markdown also gives you the unparalleled interoperability to use any 
 *To change the installation directory* use the parameter `--install-arguments='"/D=C:\Users\USERNAME\AppData\Local\Obsidian"'`
 *Please Note:* This is an automatically updated package.  If the package is outdated for more than two days, please let me know!
     </description>
-    <iconUrl>https://obsidian.md/favicon.ico</iconUrl>
+    <iconUrl>https://cdn.statically.io/gh/jonasw234/au-packages/master/obsidian/favicon.ico</iconUrl>
     <projectUrl>https://obsidian.md/</projectUrl>
     <bugTrackerUrl>https://forum.obsidian.md/c/bug-reports</bugTrackerUrl>
     <packageSourceUrl>https://github.com/jonasw234/au-packages/tree/master/obsidian</packageSourceUrl>
