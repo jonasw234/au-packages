@@ -5,8 +5,8 @@ $packageName = $env:chocolateyPackageName
 $packageArgs = @{
   packageName    = $packageName
   fileType       = 'msi'
-  url64bit       = 'https://github.com/odedshimon/BruteShark/releases/download/v1.1.6/BruteSharkDesktopInstaller_x64.msi'
-  checksum64     = '1751c12fca8c3615b7f27fe8464c453c2af71ede9103c363f98d59a5cba07bd5'
+  url64bit       = 'https://github.com/odedshimon/BruteShark/releases/download/v1.2.1/BruteSharkDesktopInstaller_x64.msi'
+  checksum64     = '65617681e2e2bd10ff17a848d5106eef17eec6a227819674eadfa6f6e121faf1'
   checksumType64 = 'sha256'
   silentArgs     = '/qn /norestart'
 }
