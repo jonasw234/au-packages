@@ -49,45 +49,6 @@ Example use cases:
 * Not tied to any particular language or ecosystem
 * Does not require a cryptic command line involving `xargs`
 
-## Usage Examples
-
-Watch all JavaScript, CSS and HTML files in the current directory and all subdirectories for changes, running `make` when a change is detected:
-
-    $ watchexec --exts js,css,html make
-
-Call `make test` when any file changes in this directory/subdirectory, except for everything below `target`:
-
-    $ watchexec -i target make test
-
-Call `ls -la` when any file changes in this directory/subdirectory:
-
-    $ watchexec -- ls -la
-
-Call/restart `python server.py` when any Python file in the current directory (and all subdirectories) changes:
-
-    $ watchexec -e py -r python server.py
-
-Call/restart `my_server` when any file in the current directory (and all subdirectories) changes, sending `SIGKILL` to stop the child process:
-
-    $ watchexec -r -s SIGKILL my_server
-
-Send a SIGHUP to the child process upon changes (Note: with using `-n | --no-shell` here, we're executing `my_server` directly, instead of wrapping it in a shell:
-
-    $ watchexec -n -s SIGHUP my_server
-
-Run `make` when any file changes, using the `.gitignore` file in the current directory to filter:
-
-    $ watchexec make
-
-Run `make` when any file in `lib` or `src` changes:
-
-    $ watchexec -w lib -w src make
-
-## Credits
-
-* [notify](https://github.com/passcod/notify) for doing most of the heavy-lifting
-* [globset](https://crates.io/crates/globset) for super-fast glob matching
-
 *Please Note:* This is an automatically updated package.  If the package is outdated for more than two days, please let me know!
     </description>
     <projectUrl>https://github.com/watchexec/watchexec</projectUrl>
