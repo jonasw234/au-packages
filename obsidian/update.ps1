@@ -18,12 +18,12 @@ function global:au_GetLatest {
 
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 
-    $re      = 'Obsidian\.\d+(\.\d+)*.exe'
+    $re      = 'Obsidian\.(\d+(\.\d+)*).exe'
     $domain  = $releases -split '(?<=//.+)/' | Select-Object -First 1
     $url     = $download_page.links | Where-Object href -match $re | Select-Object -First 1 -expand href
     $url     = $url | ForEach-Object {$domain + $_ }
-    $version = $url -match '\d(\.\d+)*$'
-    $version = $matches[0]
+    $version = $url -match $re
+    $version = $matches[1]
 
     @{
         URL     = $url
