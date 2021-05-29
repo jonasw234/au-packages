@@ -15,10 +15,11 @@ function global:au_GetLatest {
     $AllProtocols = [System.Net.SecurityProtocolType]'Tls11,Tls12'
     [System.Net.ServicePointManager]::SecurityProtocol = $AllProtocols
 
+    $re      = 'Raccine\.zip$'
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
-
-    $url     = $download_page.links | Where-Object href -match '^Raccine\.zip$' | ForEach-Object href | Select-Object -First 1
-    $version = (Split-Path (Split-Path $url) -Leaf).Replace('v', '')
+    $url     = $download_page.links | Where-Object href -match $re | ForEach-Object href | Select-Object -First 1
+    $version = $url -match '\/(\d+(\.\d+)*)\/'
+    $version = $matches[1]
 
     @{
         URL     = 'https://github.com' + $url
