@@ -1,12 +1,12 @@
-$ErrorActionPreference = 'Stop';
+﻿$ErrorActionPreference = 'Stop';
 
 $packageName = $env:chocolateyPackageName
 
 $packageArgs = @{
   packageName  = $packageName
   fileType     = 'exe'
-  url          = 'https://github.com/OhMyGuus/BetterCrewLink/releases/download/v2.3.6/Better-CrewLink-Setup-2.3.6.exe'
-  checksum     = '7402d7355627306f05caf75338cc77c6a2cf371c535ac899f99f7e8a59bd5dd1'
+  url          = 'https://github.com/OhMyGuus/BetterCrewLink/releases/download/v2.6.4/Better-CrewLink-Setup-2.6.4.exe'
+  checksum     = 'f9f199ae3decebc625343f7fd3c5ac387f674211c977216108d1de042a5be70f'
   checksumType = 'sha256'
   silentArgs   = '/S'
 }
