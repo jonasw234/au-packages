@@ -5,8 +5,8 @@ $packageName = $env:chocolateyPackageName
 $packageArgs = @{
     packageName    = $packageName
     unzipLocation  = Split-Path $MyInvocation.MyCommand.Definition
-    url            = 'https://github.com/Neo23x0/Raccine/releases/download/1.4.3/Raccine.zip'
-    checksum       = 'bd5733ff173205ad5e044fd47e14a9c7e24ef5e661b781cb5ab38a3fe5a80fa0'
+    url            = 'https://github.com/Neo23x0/Raccine/releases/download/1.4.4/Raccine.zip'
+    checksum       = '8b8524d99c41e32912669ff4be7aba713495ad3fc03e345c5a7e16d473718e48'
     checksumType   = 'sha256'
 }
 
