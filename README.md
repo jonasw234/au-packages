@@ -58,3 +58,6 @@ A Simple Ransomware Vaccine
 
 ## Obsidian
 Obsidian is a powerful knowledge base that works on top of a local folder of plain text Markdown files.
+
+## Breitbandmessung
+Die als Desktop-App installierbare Version der Breitbandmessung ermöglicht Ihnen die Ermittlung der Leistung Ihres Internetzugangs und zugleich die Überprüfung der mit Ihrem Anbieter vertraglich vereinbarten Datenübertragungsraten im Festnetz.
