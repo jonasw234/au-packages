@@ -1,12 +1,12 @@
-$ErrorActionPreference = 'Stop';
+﻿$ErrorActionPreference = 'Stop';
 
 $packageName = $env:chocolateyPackageName
 
 $packageArgs = @{
   packageName  = $packageName
   fileType     = 'exe'
-  url          = 'https://github.com/obsidianmd/obsidian-releases/releases/download/v0.11.5/Obsidian.0.11.5.exe'
-  checksum     = '7cb53bfe50bfdaa66dad522f99a72c25da7984b7705c73a92781ff326afa3ffe'
+  url          = 'https://github.com/obsidianmd/obsidian-releases/releases/download/v0.12.4/Obsidian.0.12.4.exe'
+  checksum     = '448f47d730067421b9595c5b52daa90ecf3a9c2a7be1d2ea208e3977f357947b'
   checksumType = 'sha256'
   silentArgs   = '/S'
 }
