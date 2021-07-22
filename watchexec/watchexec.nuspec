@@ -4,7 +4,7 @@
   <metadata>
     <id>watchexec</id>
     <title>watchexec</title>
-    <version>1.16.2</version>
+    <version>1.17.0</version>
     <authors>passcod</authors>
     <owners>Jonas A. Wendorf</owners>
     <summary>Executes commands in response to file modifications</summary>
