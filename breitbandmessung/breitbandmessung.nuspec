@@ -9,6 +9,16 @@
     <owners>Jonas A. Wendorf</owners>
     <summary>Die als Desktop-App installierbare Version der Breitbandmessung ermöglicht Ihnen die Ermittlung der Leistung Ihres Internetzugangs und zugleich die Überprüfung der mit Ihrem Anbieter vertraglich vereinbarten Datenübertragungsraten im Festnetz.</summary>
     <description>
+*German version below*
+The version of the broadband measurement that can be installed as a desktop app allows you to determine the performance of your Internet access and, at the same time, to check the data transfer rates contractually agreed with your provider in the fixed network.
+
+To do this, you can first perform a single measurement using the desktop app. The single measurement is equally designed for measurements of connections with low data transfer rates up to gigabit connections. The measurement results are saved in the app and can therefore be viewed at any time.
+
+If the result of the individual measurement indicates that your provider's download performance is not in compliance with the contract, you can use the desktop app verification procedure. As part of the verification procedure, a minimum of 20 measurements are carried out as a measurement campaign. The proof can be used in the argumentation towards the provider.
+
+In the [generally understandable description](https://download.breitbandmessung.de/bbm/Beschreibung-Die_Desktop-App_der_Breitbandmessung_aus_Sicht_des_Nutzers.pdf) detailed information about the desktop app is compiled and the technical specification presents in detail the technical structure and technical processes of the measurement system and measurement procedure. The desktop app was developed by zafaco GmbH on behalf of the Federal Network Agency. 
+
+*English version above*
 Die als Desktop-App installierbare Version der Breitbandmessung ermöglicht Ihnen die Ermittlung der Leistung Ihres Internetzugangs und zugleich die Überprüfung der mit Ihrem Anbieter vertraglich vereinbarten Datenübertragungsraten im Festnetz.
 
 Hierfür können Sie zunächst mittels Desktop-App eine Einzelmessung durchführen. Die Einzelmessung ist gleichermaßen für Messungen von Anschlüssen mit geringen Datenübertragungsraten bis hin zu Gigabitanschlüssen ausgelegt. Die Messergebnisse werden in der App gespeichert und können somit jederzeit wieder eingesehen werden.
