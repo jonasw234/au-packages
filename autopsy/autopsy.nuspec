@@ -23,7 +23,7 @@ Autopsy® is a digital forensics platform and graphical interface to The Sleuth 
     <copyright>Brian Carrier</copyright>
     <licenseUrl>https://github.com/sleuthkit/autopsy/blob/develop/LICENSE-2.0.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>http://www.sleuthkit.org/picts/renzik_sm.jpg</iconUrl>
+    <iconUrl>https://cdn.statically.io/gh/jonasw234/au-packages/master/autopsy/favicon.jpg</iconUrl>
     <dependencies>
     </dependencies>
   </metadata>
