@@ -6,7 +6,7 @@ $packageArgs = @{
   packageName  = $packageName
   fileType     = 'exe'
   url          = 'https://download.breitbandmessung.de/bbm/Breitbandmessung-win.exe'
-  checksum     = 'ae9fb63b1e9045d8aac269a1cc892534701b51c5305727bb4c26fab49148bb74'
+  checksum     = '73284ab1aeb766f0abe56841695b1f8e52412f5be6057fd920962e59235a972f'
   checksumType = 'sha256'
   silentArgs   = '/S'
 }
