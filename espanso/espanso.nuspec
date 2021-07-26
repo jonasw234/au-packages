@@ -97,7 +97,7 @@ and is licensed under the [GPL-3.0 license](https://github.com/federico-terzi/es
     <licenseUrl>https://github.com/federico-terzi/espanso/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>https://github.com/federico-terzi/espanso/releases</releaseNotes>
-    <iconUrl>https://espanso.org/assets/images/apple-icon-180x180.png</iconUrl>
+    <iconUrl>https://cdn.statically.io/gh/federico-terzi/espanso/master/images/icongreensmall.png</iconUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

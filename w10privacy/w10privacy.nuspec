@@ -30,7 +30,7 @@ W10Privacy is certainly no programming masterpiece, but meets my envisaged purpo
     <licenseUrl>http://creativecommons.org/licenses/by-nc-nd/4.0/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>https://www.winprivacy.de/deutsch-start/versionshistorie/</releaseNotes>
-    <iconUrl>https://u.jimcdn.com/cms/o/sf91b3285d9193eec/img/favicon.png</iconUrl>
+    <iconUrl>https://cdn.statically.io/gh/jonasw234/au-packages/master/w10privacy/favicon.jpg</iconUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
