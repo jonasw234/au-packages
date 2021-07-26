@@ -26,7 +26,7 @@ FreeOffice is a complete Office suite with a word processor, a spreadsheet appli
 
 *Warning* Since the download link stays the same for each version, sometimes the checksum verification will fail.  In that case either use the `--ignore-checksum` parameter or look for the updated and not yet approved package that has the correct checksum.
     </description>
-    <iconUrl>https://www.freeoffice.com/images/favicons/apple-touch-icon-180x180.png</iconUrl>
+    <iconUrl>https://cdn.statically.io/gh/jonasw234/au-packages/master/freeoffice/favicon.jpg</iconUrl>
     <projectUrl>https://www.freeoffice.com/en/</projectUrl>
     <bugTrackerUrl>https://forum.softmaker.com/viewforum.php?f=356</bugTrackerUrl>
     <docsUrl>https://www.freeoffice.com/en/freeoffice</docsUrl>
