@@ -18,7 +18,7 @@ function global:au_GetLatest {
 
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 
-    $re      = 'Brim-Setup.exe'
+    $re      = 'Brim-Setup.*\.exe'
     $domain  = $releases -split '(?<=//.+)/' | Select-Object -First 1
     $url     = $download_page.links | Where-Object href -match $re | Select-Object -First 1 -expand href
     $url     = $url | ForEach-Object {$domain + $_ }
