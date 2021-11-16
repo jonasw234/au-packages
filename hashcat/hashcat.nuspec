@@ -46,7 +46,7 @@
     <projectSourceUrl>https://github.com/hashcat/hashcat</projectSourceUrl>
     <bugTrackerUrl>https://github.com/hashcat/hashcat/issues</bugTrackerUrl>
     <docsUrl>https://hashcat.net/wiki/</docsUrl>
-    <iconUrl>https://cdn.statically.io/gh/qarmin/czkawka/master/data/icons/com.github.qarmin.czkawka.svg</iconUrl>
+    <iconUrl>https://cdn.statically.io/gh/jonasw234/au-packages/master/hashcat/favicon.ico</iconUrl>
     <packageSourceUrl>https://github.com/jonasw234/au-packages/tree/master/hashcat</packageSourceUrl>
     <tags>hashcat password hash cracker dictionary rule-based toggle-case combiantor bruteforce brute force brute-force hybrid association attack</tags>
     <copyright>hashcat</copyright>
