@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>hashcat</id>
+    <title>hashcat</title>
+    <version>6.2.4</version>
+    <authors>hashcat</authors>
+    <owners>Jonas A. Wendorf</owners>
+    <summary>World's fastest and most advanced password recovery utility</summary>
+    <description>
+# hashcat
+**hashcat** is the world's fastest and most advanced password recovery utility, supporting five unique modes of attack for over 300 highly-optimized hashing algorithms. hashcat currently supports CPUs, GPUs, and other hardware accelerators on Linux, Windows, and macOS, and has facilities to help enable distributed password cracking.
+
+## GPU Driver requirements
+- AMD GPUs on Linux require "RadeonOpenCompute (ROCm)" Software Platform (3.1 or later)
+- AMD GPUs on Windows require "AMD Radeon Adrenalin 2020 Edition" (20.2.2 or later)
+- Intel CPUs require "OpenCL Runtime for Intel Core and Intel Xeon Processors" (16.1.1 or later)
+- NVIDIA GPUs require "NVIDIA Driver" (440.64 or later) and "CUDA Toolkit" (9.0 or later)
+
+## Features
+- World's fastest password cracker
+- World's first and only in-kernel rule engine
+- Free
+- Open-Source (MIT License)
+- Multi-OS (Linux, Windows and macOS)
+- Multi-Platform (CPU, GPU, APU, etc., everything that comes with an OpenCL runtime)
+- Multi-Hash (Cracking multiple hashes at the same time)
+- Multi-Devices (Utilizing multiple devices in same system)
+- Multi-Device-Types (Utilizing mixed device types in same system)
+- Supports password candidate brain functionality
+- Supports distributed cracking networks (using overlay)
+- Supports interactive pause / resume
+- Supports sessions
+- Supports restore
+- Supports reading password candidates from file and stdin
+- Supports hex-salt and hex-charset
+- Supports automatic performance tuning
+- Supports automatic keyspace ordering markov-chains
+- Built-in benchmarking system
+- Integrated thermal watchdog
+- [350+ Hash-types](https://hashcat.net/hashcat/#features-algos) implemented with performance in mind
+- ... and much more
+    </description>
+    <projectUrl>https://hashcat.net/hashcat/</projectUrl>
+    <projectSourceUrl>https://github.com/hashcat/hashcat</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/hashcat/hashcat/issues</bugTrackerUrl>
+    <docsUrl>https://hashcat.net/wiki/</docsUrl>
+    <iconUrl>https://cdn.statically.io/gh/qarmin/czkawka/master/data/icons/com.github.qarmin.czkawka.svg</iconUrl>
+    <packageSourceUrl>https://github.com/jonasw234/au-packages/tree/master/hashcat</packageSourceUrl>
+    <tags>hashcat password hash cracker dictionary rule-based toggle-case combiantor bruteforce brute force brute-force hybrid association attack</tags>
+    <copyright>hashcat</copyright>
+    <licenseUrl>https://github.com/hashcat/hashcat/blob/master/docs/license.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>https://github.com/hashcat/hashcat/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
