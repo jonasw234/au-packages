@@ -9,7 +9,7 @@
     <owners>Jonas A. Wendorf</owners>
     <summary>An Open Source YouTube app for privacy</summary>
     <description>
-![](logo.png)
+![](https://cdn.statically.io/gh/jonasw234/au-packages/198cd984/freetube/logo.png)
 
 FreeTube is an open source desktop YouTube player built with privacy in mind.
 Use YouTube without advertisements and prevent Google from tracking you with their cookies and JavaScript.
@@ -38,7 +38,7 @@ Go to [FreeTube's Documentation](https://docs.freetubeapp.io/) if you'd like to 
 
 *Please Note:* This is an automatically updated package.  If the package is outdated for more than two days, please let me know!
     </description>
-    <iconUrl>https://cdn.statically.io/gh/jonasw234/au-packages/dac4cd61/brim/favicon.png</iconUrl>
+    <iconUrl>https://cdn.statically.io/gh/jonasw234/au-packages/198cd984/freetube/favicon.png</iconUrl>
     <projectUrl>https://freetubeapp.io/</projectUrl>
     <projectSourceUrl>https://github.com/FreeTubeApp/FreeTube</projectSourceUrl>
     <bugTrackerUrl>https://github.com/FreeTubeApp/FreeTube/issues</bugTrackerUrl>
