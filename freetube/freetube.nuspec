@@ -13,7 +13,7 @@
 
 FreeTube is an open source desktop YouTube player built with privacy in mind.
 Use YouTube without advertisements and prevent Google from tracking you with their cookies and JavaScript.
-Available for Windows, Mac & Linux thanks to Electron.
+Available for Windows, Mac and Linux thanks to Electron.
 
 Please note that FreeTube is currently in Beta. While it should work well for
 most users, there are still bugs and missing features that need to be
@@ -36,6 +36,7 @@ to hide your IP while using FreeTube.
 
 Go to [FreeTube's Documentation](https://docs.freetubeapp.io/) if you'd like to know more about how to operate FreeTube and its features.
 
+*To change the installation directory* use the parameter `--install-arguments='"/D=C:\Users\USERNAME\AppData\Local\Programs\freetube"'`
 *Please Note:* This is an automatically updated package.  If the package is outdated for more than two days, please let me know!
     </description>
     <iconUrl>https://cdn.statically.io/gh/jonasw234/au-packages/198cd984/freetube/favicon.png</iconUrl>
