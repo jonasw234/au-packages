@@ -64,6 +64,3 @@ Die als Desktop-App installierbare Version der Breitbandmessung ermöglicht Ihne
 
 ## Czkawka
 Czkawka (tch•kav•ka, hiccup) is a simple, fast and free app to remove unnecessary files from your computer.
-
-## FreeTube
-An Open Source YouTube app for privacy
