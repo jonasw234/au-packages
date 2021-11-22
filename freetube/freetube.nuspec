@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>freetube</id>
+    <title>FreeTube</title>
+    <version>0.15.1</version>
+    <authors>FreeTube</authors>
+    <owners>Jonas A. Wendorf</owners>
+    <summary>An Open Source YouTube app for privacy</summary>
+    <description>
+![](logo.png)
+
+FreeTube is an open source desktop YouTube player built with privacy in mind.
+Use YouTube without advertisements and prevent Google from tracking you with their cookies and JavaScript.
+Available for Windows, Mac & Linux thanks to Electron.
+
+Please note that FreeTube is currently in Beta. While it should work well for
+most users, there are still bugs and missing features that need to be
+addressed.
+
+[Download FreeTube](https://github.com/FreeTubeApp/FreeTube/releases)
+
+### Browser Extension
+
+FreeTube is supported by the [Privacy Redirect](https://github.com/SimonBrazell/privacy-redirect) extension, which will allow you to open YouTube links into FreeTube. You must enable the option within the advanced settings for it to work.
+
+Download Privacy Redirect for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/privacy-redirect/) or [Google Chrome](https://chrome.google.com/webstore/detail/privacy-redirect/pmcmeagblkinmogikoikkdjiligflglb).
+
+If you have issues with the extension working with FreeTube, please create an issue in this repository instead of the extension repository.
+
+## How does it work?
+FreeTube uses a built in extractor to grab and serve data / videos.  The [Invidious API](https://github.com/iv-org/invidious) can also optionally be used.  FreeTube does not use any official APIs to obtain data.  While YouTube can still see your video requests, it can no
+longer track you using cookies or JavaScript. Your subscriptions and history are stored locally on your computer and never sent out.  Using a VPN or Tor is highly recommended
+to hide your IP while using FreeTube.
+
+Go to [FreeTube's Documentation](https://docs.freetubeapp.io/) if you'd like to know more about how to operate FreeTube and its features.
+
+*Please Note:* This is an automatically updated package.  If the package is outdated for more than two days, please let me know!
+    </description>
+    <iconUrl>https://cdn.statically.io/gh/jonasw234/au-packages/dac4cd61/brim/favicon.png</iconUrl>
+    <projectUrl>https://freetubeapp.io/</projectUrl>
+    <projectSourceUrl>https://github.com/FreeTubeApp/FreeTube</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/FreeTubeApp/FreeTube/issues</bugTrackerUrl>
+    <packageSourceUrl>https://github.com/jonasw234/au-packages/tree/master/freetube</packageSourceUrl>
+    <tags>youtube invidious privacy player streaming videos</tags>
+    <copyright>FreeTube</copyright>
+    <licenseUrl>https://github.com/FreeTubeApp/FreeTube/blob/development/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>https://github.com/FreeTubeApp/FreeTube/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
