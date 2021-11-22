@@ -17,8 +17,9 @@ function global:au_GetLatest {
 
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 
-    $url     = $download_page.links | Where-Object href -match 'windows_czkawka_gui\.zip$' | ForEach-Object href | Select-Object -First 1
-    $version = $url -split '\/download\/|\/windows_czkawka_gui\.zip'
+    $file    = 'windows_czkawka_gui\.zip$'
+    $url     = $download_page.links | Where-Object href -match $file | ForEach-Object href | Select-Object -First 1
+    $version = $url -split '\/download\/|\/' + $file
     $version = $version[1]
 
     return @{
