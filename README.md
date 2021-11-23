@@ -70,3 +70,6 @@ Free QR code generator for private users
 
 ## hashcat
 World's fastest and most advanced password recovery utility
+
+## Titlecase
+A tool and Rust crate for making text title case
