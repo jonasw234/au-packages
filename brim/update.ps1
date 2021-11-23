@@ -24,7 +24,7 @@ function global:au_GetLatest {
     $version = $version[1]
 
     @{
-        URL     = $url
+        URL     = 'https://github.com' + $url
         Version = $version
     }
 }
