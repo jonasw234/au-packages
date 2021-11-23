@@ -20,7 +20,7 @@ function global:au_GetLatest {
 
     $re      = 'Brim-Setup.*\.exe'
     $url     = $download_page.links | Where-Object href -match $re | ForEach-Object href | Select-Object -First 1
-    $version = $url -split '\/v|\/Brim-Setup'
+    $version = $url -split '\/v|\/' + $re
     $version = $version[1]
 
     @{
