@@ -5,8 +5,8 @@ $packageName = $env:chocolateyPackageName
 $packageArgs = @{
     packageName    = $packageName
     fileType       = 'msi'
-    url            = 'https://www.freeoffice.com/download.php?filename=https://www.softmaker.net/down/freeoffice2018.msi'
-    checksum       = '270cddb2866a8d4f7a6581e58fe72cd511b0e7397878662e449a38b3a381d02d'
+    url            = 'https://www.freeoffice.com/download.php?filename=https://www.softmaker.net/down/freeoffice2021.msi'
+    checksum       = 'c15d63206dd13df06d63d5678f5eb7424cda30b8937d0eb73809b5b60ca70fe1'
     checksumType   = 'sha256'
     silentArgs     = '/qn'
 }
