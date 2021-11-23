@@ -67,3 +67,6 @@ Czkawka (tch•kav•ka, hiccup) is a simple, fast and free app to remove unnece
 
 ## QR-Code Studio
 Free QR code generator for private users
+
+## hashcat
+World's fastest and most advanced password recovery utility
