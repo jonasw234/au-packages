@@ -18,10 +18,10 @@ function global:au_GetLatest {
 
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 
-    $re      = 'DesktopInstaller(_x64)?\.msi$'
-    $url     = $download_page.Links | Where-Object href -match $re | Select-Object -First 1 -expand href
-    $version = $download_page.Links | Where-Object href -match '\/tree\/v' | Select-Object -First 1 -expand title
-    $version = $version.Replace('v', '')
+    $re      = 'BruteSharkDesktopInstaller_x64\.msi$'
+    $url     = $download_page.links | Where-Object href -match $re | ForEach-Object href | Select-Object -First 1
+    $version = $url -split '\/v|\/' + $re
+    $version = $version[1]
 
     return @{
         URL64   = 'https://github.com' + $url
