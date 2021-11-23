@@ -14,12 +14,12 @@ function global:au_SearchReplace {
 function global:au_GetLatest {
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 
-    $url32   = $download_page.links | Where-Object href -match 'freeoffice2018\.msi$' | ForEach-Object href | Select-Object -First 1
+    $url32   = $download_page.links | Where-Object href -match 'freeoffice2021\.msi$' | ForEach-Object href | Select-Object -First 1
     $version = ($download_page.links | Where-Object outerHTML -match 'Revision' | Select-Object -First 1).outerHTML.SubString(45).split()[0]
 
     @{
         URL32   = 'https://www.freeoffice.com' + $url32
-        Version = '2018.' + $version
+        Version = '2021.' + $version
     }
 }
 
