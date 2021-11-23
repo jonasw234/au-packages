@@ -17,9 +17,10 @@ function global:au_GetLatest {
 
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 
-    $url     = $download_page.links | Where-Object href -match 'hashcat-(\d\.)+\d\.7z$' | ForEach-Object href | Select-Object -First 1
-    $version = $url -split '-v|/hashcat-(\d\.)+\d\.7z'
-    $version = $version[3]
+    $re      = 'hashcat-(\d\.)+\d\.7z$'
+    $url     = $download_page.links | Where-Object href -match $re | ForEach-Object href | Select-Object -First 1
+    $version = $url -split '\/v|\/' + $re
+    $version = $version[1]
 
     return @{
         URL     = 'https://github.com' + $url
