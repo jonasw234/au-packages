@@ -19,14 +19,12 @@ function global:au_GetLatest {
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 
     $re      = 'CrewLink-Setup-\d+(\.\d+)*.exe'
-    $domain  = $releases -split '(?<=//.+)/' | Select-Object -First 1
-    $url     = $download_page.links | Where-Object href -match $re | Select-Object -First 1 -expand href
-    $url     = $url | ForEach-Object {$domain + $_ }
-    $version = $download_page.links | Where-Object href -match 'v\d(\.\d+)*$' | Select-Object -First 1 -expand title
-    $version = $version.substring(1)
+    $url     = $download_page.links | Where-Object href -match $re | ForEach-Object href | Select-Object -First 1
+    $version = $url -split '\/v|\/' + $re
+    $version = $version[1]
 
     @{
-        URL     = $url
+        URL     = 'https://github.com' + $url
         Version = $version
     }
 }
