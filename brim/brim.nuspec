@@ -4,7 +4,7 @@
   <metadata>
     <id>brim</id>
     <title>Brim</title>
-    <version>0.26.0</version>
+    <version>0.28.0</version>
     <authors>Brim</authors>
     <owners>Jonas A. Wendorf</owners>
     <summary>Desktop application to efficiently search large packet captures and Zeek logs.</summary>
