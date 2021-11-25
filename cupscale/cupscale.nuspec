@@ -12,6 +12,8 @@
 # Cupscale
 Image Upscaling GUI based on ESRGAN
 
+![](https://cdn.statically.io/gh/jonasw234/au-packages/6e3023ac/cupscale/cupscale.png)
+
 ## Credits:
 Based around [xinntao's ESRGAN](https://github.com/xinntao/ESRGAN) implemented via [Joey's Fork](https://github.com/JoeyBallentine/ESRGAN).
 
