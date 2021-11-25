@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>cupscale</id>
+    <title>Cupscale</title>
+    <version>1.39.0</version>
+    <authors>n00mkrad</authors>
+    <owners>Jonas A. Wendorf</owners>
+    <summary>Image Upscaling GUI based on ESRGAN</summary>
+    <description>
+# Cupscale
+Image Upscaling GUI based on ESRGAN
+
+## Credits:
+Based around [xinntao's ESRGAN](https://github.com/xinntao/ESRGAN) implemented via [Joey's Fork](https://github.com/JoeyBallentine/ESRGAN).
+
+AMD/Intel GPU compatibility is possible thanks to BlueAmulet's [esrgan-ncnn-vulkan](https://github.com/BlueAmulet/realsr-ncnn-vulkan) based on nihui's [realsr-ncnn-vulkan](https://github.com/nihui/realsr-ncnn-vulkan) running on Tencent's [ncnn](https://github.com/Tencent/ncnn) framework, as well as [xinntao's Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN).
+
+## Supported AI Backends:
+- Nvidia CUDA (Recommended)
+- Vulkan (Works on any modern GPU, but is slower and takes a long time start up)
+- CPU (Works without GPU, but is very slow)
+
+## Features:
+- CUDA, Vulkan/NCNN or CPU supported, with included model converter for NCNN
+- On-the-fly Model Interpolation
+- Model Chaining (Run images through multiple models at once)
+- Batch Upscaling (Load a directory or multiple single images)
+- Automatic Image tiling/merging to avoid running out of VRAM
+- Pre-Processing: Optionally downscale images before upscaling
+- Post-Processing: Automatically resize after upscaling
+- Compatible with PNG, JPEG, BMP, WEBP, TGA, DDS images
+- Load image straight out of the clipboard (no need to download images from web)
+- Create various types of comparisons (Side-By-Side, 50/50, and before/after animations as GIF or MP4)
+
+*To change the installation directory* use the parameter `--params "/InstallDir:C:\your\install\path"`.  Temporary files are stored in the installation directory by default, which is why you shouldn’t install the application in protected locations like Program Files.
+*Please Note:* This is an automatically updated package.  If the package is outdated for more than two days, please let me know!
+    </description>
+    <projectUrl>https://github.com/n00mkrad/cupscale</projectUrl>
+    <projectSourceUrl>https://github.com/n00mkrad/cupscale</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/n00mkrad/cupscale/issues</bugTrackerUrl>
+    <docsUrl>https://upscale.wiki/wiki/Cupscale_Tutorial</docsUrl>
+    <iconUrl>https://cdn.statically.io/gh/n00mkrad/cupscale/master/Code/CupscaleLogo1.ico</iconUrl>
+    <packageSourceUrl>https://github.com/jonasw234/au-packages/tree/master/cupscale</packageSourceUrl>
+    <tags>image upscaling machine learning cupscale esrgan realesrgan interpolation</tags>
+    <copyright>n00mkrad</copyright>
+    <licenseUrl>https://github.com/n00mkrad/cupscale/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>https://github.com/n00mkrad/cupscale/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
