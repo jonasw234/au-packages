@@ -18,7 +18,12 @@ $packageArgs = @{
     checksumType64 = 'sha256'
 }
 
+# Don’t create subfolders for each version
 Install-ChocolateyZipPackage @packageArgs
+Move-Item -Path "$installDir\Cupscale *\*" -Destination "$installDir"
+Remove-Item -Path "$installDir\Cupscale *"
+
+# Add Cupscale.exe to PATH
 if ($installDir -ne $toolsPath) {
     Install-ChocolateyPath $installDir
 }
