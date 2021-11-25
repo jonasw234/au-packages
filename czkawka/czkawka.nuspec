@@ -35,8 +35,9 @@
   - Invalid Symbolic Links - Shows symbolic links which point to non-existent files/directories
   - Broken Files - Finds files with an invalid extension or that are corrupted
 
-<!-- The GIF thingy -->
 ![Czkawka](https://user-images.githubusercontent.com/41945903/104711404-9cbb7400-5721-11eb-904d-9677c189f7ab.gif)
+
+*Please Note* This is an automatically updated package.  If the package is outdated for more than two days, please let me know.
     </description>
     <projectUrl>https://github.com/qarmin/czkawka</projectUrl>
     <projectSourceUrl>https://github.com/qarmin/czkawka</projectSourceUrl>

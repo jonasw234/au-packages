@@ -10,6 +10,8 @@
     <summary>A Gtk/Qt front-end to tesseract-ocr.</summary>
     <description>
 gImageReader is a simple Gtk/Qt front-end to tesseract-ocr.
+
+*Please Note* This is an automatically updated package.  If the package is outdated for more than two days, please let me know.
     </description>
     <releaseNotes>https://github.com/manisandro/gImageReader/releases</releaseNotes>
     <projectUrl>https://github.com/manisandro/gImageReader</projectUrl>

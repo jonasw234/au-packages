@@ -17,6 +17,8 @@
 - AMD GPUs on Windows require "AMD Radeon Adrenalin 2020 Edition" (20.2.2 or later)
 - Intel CPUs require "OpenCL Runtime for Intel Core and Intel Xeon Processors" (16.1.1 or later)
 - NVIDIA GPUs require "NVIDIA Driver" (440.64 or later) and "CUDA Toolkit" (9.0 or later)
+
+*Please Note* This is an automatically updated package.  If the package is outdated for more than two days, please let me know.
     </description>
     <projectUrl>https://hashcat.net/hashcat/</projectUrl>
     <projectSourceUrl>https://github.com/hashcat/hashcat</projectSourceUrl>
