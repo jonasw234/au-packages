@@ -6,7 +6,7 @@ $packageArgs = @{
     packageName    = $packageName
     fileType       = 'msi'
     url            = 'https://www.freeoffice.com/download.php?filename=https://www.softmaker.net/down/freeoffice2021.msi'
-    checksum       = 'c15d63206dd13df06d63d5678f5eb7424cda30b8937d0eb73809b5b60ca70fe1'
+    checksum       = '2a1104ede2d9cd854f82c8c38a52710fd2f080c754a461a649cd47bf0504e73a'
     checksumType   = 'sha256'
     silentArgs     = '/qn'
 }
