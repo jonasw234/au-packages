@@ -29,7 +29,7 @@ FreeOffice is a complete Office suite with a word processor, a spreadsheet appli
     <iconUrl>https://cdn.statically.io/gh/jonasw234/au-packages/a36b03bc/freeoffice/favicon.png</iconUrl>
     <projectUrl>https://www.freeoffice.com/en/</projectUrl>
     <bugTrackerUrl>https://forum.softmaker.com/viewforum.php?f=356</bugTrackerUrl>
-    <docsUrl>https://www.freeoffice.com/en/freeoffice</docsUrl>
+    <docsUrl>https://www.freeoffice.com/features/freeoffice</docsUrl>
     <packageSourceUrl>https://github.com/jonasw234/au-packages/tree/master/freeoffice</packageSourceUrl>
     <tags>office textmaker planmaker presentations</tags>
     <copyright>SoftMaker</copyright>
