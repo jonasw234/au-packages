@@ -1,4 +1,4 @@
-import-module au
+Import-Module au
 
 $releases = 'https://github.com/qarmin/czkawka/releases'
 
@@ -28,4 +28,4 @@ function global:au_GetLatest {
     }
 }
 
-update -ChecksumFor 64
+Update-Package -ChecksumFor All
