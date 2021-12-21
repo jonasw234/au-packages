@@ -17,7 +17,7 @@ function global:au_GetLatest {
 
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 
-    $url32   = $download_page.links | ? href -match '-win-installer.exe$' | select -First 1 -expand href
+    $url32   = $download_page.links | Where-Object href -match '-win-installer.exe$' | Select-Object -First 1 -expand href
     $version = $url32.split('/v')[6]
 
     @{
@@ -26,4 +26,4 @@ function global:au_GetLatest {
     }
 }
 
-update -ChecksumFor 32
+Update-Package -ChecksumFor all
