@@ -1,4 +1,4 @@
-import-module au
+Import-Module au
 . $PSScriptRoot\..\_scripts\all.ps1
 
 $releases = 'https://www.tec-it.com/de/download/free-software/qrcode-studio/Download.aspx'

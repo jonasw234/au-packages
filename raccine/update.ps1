@@ -1,4 +1,4 @@
-import-module au
+Import-Module au
 
 $releases = 'https://github.com/Neo23x0/Raccine/releases'
 

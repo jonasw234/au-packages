@@ -1,4 +1,4 @@
-import-module au
+Import-Module au
 
 $releases = 'https://www.freeoffice.com/en/download/applications'
 
