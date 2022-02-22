@@ -77,7 +77,7 @@ This project implements proximity voice chat in Among Us. Everyone in an Among U
     <copyright>ottomated</copyright>
     <licenseUrl>https://github.com/OhMyGuus/BetterCrewLink/blob/nightly/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <releaseNotes>https://github.com/OhMyGuus/BetterCrewLink/releases/tag/v2.3.6</releaseNotes>
+    <releaseNotes>https://github.com/OhMyGuus/BetterCrewLink/releases</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
