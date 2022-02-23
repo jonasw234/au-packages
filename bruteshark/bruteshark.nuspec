@@ -9,7 +9,7 @@
     <owners>Jonas A. Wendorf</owners>
     <summary>Network Analysis Tool</summary>
     <description>
-![](https://raw.githubusercontent.com/odedshimon/BruteShark/master/readme_media/BruteSharkBanner.png)
+![](https://cdn.staticaly.com/gh/odedshimon/BruteShark/master/readme_media/BruteSharkBanner.png)
 
 BruteShark is a Network Forensic Analysis Tool (NFAT) that performs deep processing and inspection of network traffic (mainly PCAP files). It includes: password extracting, building a network map, reconstruct TCP sessions, extract hashes of encrypted passwords and even convert them to a Hashcat format in order to perform an offline Brute Force attack.
 
@@ -37,17 +37,17 @@ Please ⭐️[this repository](https://github.com/odedshimon/BruteShark) if this
 [**How do i crack (by mistake!) Windows 10 user NTLM password**](https://youtu.be/AreguLxCCz4)  
 [**Run Brute Shark CLI on Ubuntu with Mono**](https://youtu.be/am1xU_kAxiI)  
 ##### Hashes Extracting
-![](https://raw.githubusercontent.com/odedshimon/BruteShark/master/readme_media/Hashes.PNG)
+![](https://cdn.staticaly.com/gh/odedshimon/BruteShark/master/readme_media/Hashes.PNG)
 ##### Building a Network Diagram
-![](https://raw.githubusercontent.com/odedshimon/BruteShark/master/readme_media/NetworkMap.png)
+![](https://cdn.staticaly.com/gh/odedshimon/BruteShark/master/readme_media/NetworkMap.png)
 ##### File Carving
-![](https://raw.githubusercontent.com/odedshimon/BruteShark/master/readme_media/FilesCarving.png)
+![](https://cdn.staticaly.com/gh/odedshimon/BruteShark/master/readme_media/FilesCarving.png)
 ##### Password Extracting
-![](https://raw.githubusercontent.com/odedshimon/BruteShark/master/readme_media/Passwords.PNG)
+![](https://cdn.staticaly.com/gh/odedshimon/BruteShark/master/readme_media/Passwords.PNG)
 ##### Reconstruct all TCP Sessions
-![](https://raw.githubusercontent.com/odedshimon/BruteShark/master/readme_media/TcpSessions.PNG)
+![](https://cdn.staticaly.com/gh/odedshimon/BruteShark/master/readme_media/TcpSessions.PNG)
 ##### Brute Shark CLI 
-![](https://raw.githubusercontent.com/odedshimon/BruteShark/master/readme_media/BruteSharkCli.PNG)
+![](https://cdn.staticaly.com/gh/odedshimon/BruteShark/master/readme_media/BruteSharkCli.PNG)
 
 *Please Note:* This is an automatically updated package.  If the package is outdated for more than two days, please let me know!
     </description>

@@ -9,7 +9,7 @@
     <owners>Jonas A. Wendorf</owners>
     <summary>Cross-platform Text Expander written in Rust</summary>
     <description>
-![espanso](https://raw.githubusercontent.com/federico-terzi/espanso/master/images/titlebar.png)
+![espanso](https://cdn.staticaly.com/gh/federico-terzi/espanso/master/images/titlebar.png)
 
 &gt; A cross-platform Text Expander written in Rust
 
@@ -19,7 +19,7 @@
 ![License](https://img.shields.io/github/license/federico-terzi/espanso)
 [![Build Status](https://dev.azure.com/freddy6896/espanso/_apis/build/status/federico-terzi.espanso?branchName=master)](https://dev.azure.com/freddy6896/espanso/_build/latest?definitionId=1&amp;branchName=master)
 
-![example](https://raw.githubusercontent.com/federico-terzi/espanso/master/images/example.gif)
+![example](https://cdn.staticaly.com/gh/federico-terzi/espanso/master/images/example.gif)
 
 Visit the [espanso website](https://espanso.org).
 
