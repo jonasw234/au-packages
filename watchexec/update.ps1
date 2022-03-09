@@ -6,7 +6,7 @@ function global:au_SearchReplace {
    @{
         ".\tools\chocolateyInstall.ps1" = @{
             "(?i)(^\s*url64Bit\s*=\s*)('.*')"   = "`$1'$($Latest.URL)'"
-            "(?i)(^\s*checksum64\s*=\s*)('.*')" = "`$1'$($Latest.Checksum)'"
+            "(?i)(^\s*checksum64\s*=\s*)('.*')" = "`$1'$($Latest.Checksum64)'"
         }
     }
 }
@@ -27,4 +27,4 @@ function global:au_GetLatest {
     }
 }
 
-Update-Package -ChecksumFor all
+Update-Package -ChecksumFor 64
