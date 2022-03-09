@@ -5,8 +5,8 @@ $packageName = $env:chocolateyPackageName
 $packageArgs = @{
     packageName    = $packageName
     unzipLocation  = Split-Path $MyInvocation.MyCommand.Definition
-    url64Bit       = 'https://github.com/qarmin/czkawka/releases/download/3.3.1/windows_czkawka_gui.zip'
-    checksum64     = '2697e71a8aa0242c35293460fe0f625c113aa9c518a8010313d94ebb1f7a64cd'
+    url64Bit       = 'https://github.com/qarmin/czkawka/releases/download/4.0.0/windows_czkawka_gui.zip'
+    checksum64     = '85f3023741449d357ee8ed1f7ce5248a1dcc4b5c039993a9ec5c04996f9ee415'
     checksumType64 = 'sha256'
 }
 
