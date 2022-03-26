@@ -6,7 +6,7 @@ $packageArgs = @{
   url            = 'https://dist.0patch.com/download/latestagent'
   checksum       = '492e2c8e63be6e484b06d45d2fb6276db7de5a0fba161bf34b10ddeb98e53d32'
   checksumType   = 'sha256'
-  silentArgs     = '/qn'
+  silentArgs     = '/qn /norestart'
   validExitCodes = @(0)
 }
 
