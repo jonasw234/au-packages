@@ -1,10 +1,10 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>breitbandmessung</id>
     <title>Breitbandmessung</title>
-    <version>3.1.0</version>
+    <version>3.2.0</version>
     <authors>zafaco GmbH</authors>
     <owners>Jonas A. Wendorf</owners>
     <summary>Die als Desktop-App installierbare Version der Breitbandmessung ermöglicht Ihnen die Ermittlung der Leistung Ihres Internetzugangs und zugleich die Überprüfung der mit Ihrem Anbieter vertraglich vereinbarten Datenübertragungsraten im Festnetz.</summary>
