@@ -4,9 +4,9 @@ $releases = 'https://github.com/qarmin/czkawka/releases'
 
 function global:au_SearchReplace {
    @{
-        ".\tools\chocolateyInstall.ps1" = @{
-            "(?i)(^\s*url64Bit\s*=\s*)('.*')"   = "`$1'$($Latest.URL)'"
-            "(?i)(^\s*checksum64\s*=\s*)('.*')" = "`$1'$($Latest.Checksum64)'"
+        ".\tools\chocolateyinstall.ps1" = @{
+            "(^[$]url64\s*=\s*)('.*')" = "`$1'$( $Latest.URL64 )'"           #1
+            "(^[$]checksum64\s*=\s*)('.*')" = "`$1'$( $Latest.Checksum64 )'"      #2
         }
     }
 }
@@ -23,7 +23,7 @@ function global:au_GetLatest {
     $version = $version[1]
 
     return @{
-        URL     = 'https://github.com' + $url
+        URL64   = 'https://github.com' + $url
         Version = $version
     }
 }
