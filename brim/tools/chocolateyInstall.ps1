@@ -5,8 +5,8 @@ $packageName = $env:chocolateyPackageName
 $packageArgs = @{
   packageName  = $packageName
   fileType     = 'exe'
-  url          = 'https://github.com/brimdata/brim/releases/download/v0.29.0/Brim-Setup-0.29.0.exe'
-  checksum     = '5208435e4b886e4a2b84eece27e0436948281647d5a0b8b4937756d97be812ee'
+  url          = 'https://github.com/brimdata/brim/releases/download/v0.30.0/Brim-Setup-0.30.0.exe'
+  checksum     = '33e86bbf67936459a50b3cc1713254b6a4cf817ab46b07d49ffe7658edb84349'
   checksumType = 'sha256'
   silentArgs   = '/S'
 }
