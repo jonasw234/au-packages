@@ -30,4 +30,4 @@ function global:au_GetLatest {
     }
 }
 
-Update-Package -ChecksumFor all
+Update-Package -ChecksumFor 64
