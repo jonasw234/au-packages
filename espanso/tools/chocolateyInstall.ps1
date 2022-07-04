@@ -5,8 +5,8 @@ $packageName = $env:chocolateyPackageName
 $packageArgs = @{
   packageName    = $packageName
   fileType       = 'exe'
-  url64          = 'https://github.com/federico-terzi/espanso/releases/download/v2.1.5-beta/Espanso-Win-Installer-x86_64.exe'
-  checksum64     = 'a3da8f3b721405a34c095d6f8e553518e140311e02c512453898e55dbd4f3e70'
+  url64          = 'https://github.com/espanso/espanso/releases/download/v2.1.6-beta/Espanso-Win-Installer-x86_64.exe'
+  checksum64     = '4a88975f0f6b1a45ea44e9f63bab4fddc905340f3909e65a3dd129b09248c2c6'
   checksumType64 = 'sha256'
   silentArgs     = '/verysilent /norestart /nocloseapplications'
 }
