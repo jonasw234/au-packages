@@ -10,8 +10,8 @@ $iconPath               = Join-Path $packageToolsDir 'icon_about.ico'
 $desktopShortcutPath    = "$($ENV:PUBLIC)\Desktop\Czkawka GUI.lnk"
 $startmenuShortcutPath  = "$($ENV:ProgramData)\Microsoft\Windows\Start Menu\Programs\Czkawka GUI.lnk"
 
-$url64                  = 'https://github.com/qarmin/czkawka/releases/download/4.1.0/windows_czkawka_gui.zip'
-$checksum64             = 'b522caa155c33bd9551750952d225516a75d2e02f295398534c4f3dc2c032f39'
+$url64                  = 'https://github.com/qarmin/czkawka/releases/download/5.0.0/windows_czkawka_gui.zip'
+$checksum64             = '17b7e2a5a00c54a11a8925deb4771cc3d140f760fe10a4714f33ef9e5a0620fe'
 $checksumType64         = 'sha256'
 
 $packageName = $env:chocolateyPackageName
