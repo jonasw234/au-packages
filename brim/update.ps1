@@ -1,7 +1,7 @@
 Import-Module au
 . $PSScriptRoot\..\_scripts\all.ps1
 
-$releases = 'https://github.com/brimsec/brim/releases'
+$releases = 'https://github.com/brimdata/brim/releases'
 
 function global:au_SearchReplace {
    @{

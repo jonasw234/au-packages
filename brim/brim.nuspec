@@ -3,13 +3,13 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>brim</id>
-    <title>Brim</title>
-    <version>0.31.0</version>
-    <authors>Brim</authors>
+    <title>Zui</title>
+    <version>0.32.0</version>
+    <authors>Brim Data</authors>
     <owners>Jonas A. Wendorf</owners>
     <summary>Desktop application to efficiently search large packet captures and Zeek logs.</summary>
     <description>
-*Please Note:* This package is inofficial and in no way affiliated with Brim Security.  Failing tests for this package don’t necessarily mean that there is anything wrong with their installer!
+*Please Note:* This package is inofficial and in no way affiliated with Brim Data.  Failing tests for this package don’t necessarily mean that there is anything wrong with their installer!
 
 Brim is an open source desktop application for security and network specialists. Brim makes it easy to search and analyze data from:
 
@@ -24,18 +24,19 @@ Brim is built from open source components, including:
 * Electron and React for multi-platform UI;
 * Zeek, to generate network analysis data from packet capture files.
 
-*Please Note:* This is an automatically updated package.  If the package is outdated for more than two days, please let me know!
+*Please Note:* This is an automatically updated package.  If the package is outdated for more than two days, please let me know!  
+*Please Note:* The Brim app has been [renamed to Zui](https://github.com/brimdata/brim/releases/tag/v0.31.0).
     </description>
     <iconUrl>https://cdn.statically.io/gh/jonasw234/au-packages/dac4cd61/brim/favicon.png</iconUrl>
-    <projectUrl>https://www.brimsecurity.com/</projectUrl>
-    <projectSourceUrl>https://github.com/brimsec/brim</projectSourceUrl>
-    <bugTrackerUrl>https://github.com/brimsec/brim/issues</bugTrackerUrl>
+    <projectUrl>https://www.brimdata.io/</projectUrl>
+    <projectSourceUrl>https://github.com/brimdata/brim</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/brimdata/brim/issues</bugTrackerUrl>
     <packageSourceUrl>https://github.com/jonasw234/au-packages/tree/master/brim</packageSourceUrl>
-    <tags>wireshark zeek packet capture structured logs network analysis security</tags>
-    <copyright>Brim Security</copyright>
-    <licenseUrl>https://github.com/brimsec/brim/blob/master/LICENSE.txt</licenseUrl>
+    <tags>wireshark zeek packet capture structured logs network analysis security brim zed zui</tags>
+    <copyright>Brim Data</copyright>
+    <licenseUrl>https://github.com/brimdata/brim/blob/master/LICENSE.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <releaseNotes>https://github.com/brimsec/brim/releases</releaseNotes>
+    <releaseNotes>https://github.com/brimdata/brim/releases</releaseNotes>
     <dependencies>
       <dependency id="wireshark" version="[3.2.4,)" />
     </dependencies>
