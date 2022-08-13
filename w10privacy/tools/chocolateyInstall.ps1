@@ -6,8 +6,8 @@ $download_dir = "$Env:TEMP\chocolatey\$packageName\$Env:ChocolateyPackageVersion
 $packageArgs = @{
   packageName    = 'w10privacy'
   unzipLocation  = Split-Path $MyInvocation.MyCommand.Definition
-  url64Bit       = 'https://sf91b3285d9193eec.jimcontent.com/download/version/1653039431/module/12302828636/name/W10Privacy.zip'
-  checksum64     = '48ec3dcc922650ea9f88956c1d677da34037ffe5e2ce0c087fa46d41ff6c77ca'
+  url64Bit       = 'https://sf91b3285d9193eec.jimcontent.com/download/version/1660314790/module/12302828636/name/W10Privacy.zip'
+  checksum64     = '99cf2746936530218c4411bfde76d18f9b047bb8e2f39f61f5a66da126eebb64'
   checksumType64 = 'sha256'
 }
 
