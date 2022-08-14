@@ -11,7 +11,7 @@ $packageArgs = @{
     packageName    = $packageName
     fileType       = 'msi'
     url            = 'https://www.freeoffice.com/download.php?filename=https://www.softmaker.net/down/freeoffice2021.msi'
-    checksum       = 'ed3a055ca4c9e8f479efdd72fd4c214e9e85120b6fc49c474b205b78fa1b168f'
+    checksum       = '0a04930ceda9bfcf8dc225bd94d92c5ec33bce9b2ddf927fce9675fb8fd3b470'
     checksumType   = 'sha256'
     silentArgs     = '/norestart /qn APPLICATIONFOLDER="' + $installDir + '"'
 }
