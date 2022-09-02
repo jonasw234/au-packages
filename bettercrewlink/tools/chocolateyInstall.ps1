@@ -5,8 +5,8 @@ $packageName = $env:chocolateyPackageName
 $packageArgs = @{
   packageName  = $packageName
   fileType     = 'exe'
-  url          = 'https://github.com/OhMyGuus/BetterCrewLink/releases/download/v3.0.3/Better-CrewLink-Setup-3.0.3.exe'
-  checksum     = 'a47f2d5f5d7dc9ffc991a326dbeaf189e54f4053195bc606b02d52dce18c17fe'
+  url          = 'https://github.com/OhMyGuus/BetterCrewLink/releases/download/v3.0.5/Better-CrewLink-Setup-3.0.5.exe'
+  checksum     = '649b0ffb2191638d0edb4ada03a9353872be219a904b8403fa20d1ad39320804'
   checksumType = 'sha256'
   silentArgs   = '/S'
 }
