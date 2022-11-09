@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>tachidesk-server</id>
+    <title>Tachidesk-Server</title>
+    <version>0.6.5</version>
+    <authors>Suwayomi</authors>
+    <owners>Jonas A. Wendorf</owners>
+    <summary>A rewrite of Tachiyomi for the Desktop</summary>
+    <description>
+# What is Tachidesk?
+![](https://cdn.statically.io/gh/Suwayomi/Tachidesk/39490ce7/server/src/main/resources/icon/faviconlogo.png)
+
+A free and open source manga reader server that runs extensions built for [Tachiyomi](https://tachiyomi.org/). 
+
+Tachidesk is an independent Tachiyomi compatible software and is **not a Fork of** Tachiyomi.
+
+`Tachidesk` is a general term used to describe the combination of Tachidesk-Server(this project) and one of our clients. 
+Think of it roughly like the concept of "distribution" in GNU/Linux distributions, in which Linux(Tachidesk-Server) is the kernel and the difference is which desktop environment(Tachidesk client) you get with it. 
+
+Tachidesk-Server is as multi-platform as you can get. Any platform that runs java and/or has a modern browser can run it. This includes Windows, Linux, macOS, chrome OS, etc.
+
+Ability to sync with Tachiyomi is a planned feature.
+
+## Is this application usable? Should I test it?
+Here is a list of current features:
+
+- Installing and executing Tachiyomi's Extensions, So you'll get the same sources
+- A library to save your mangas and categories to put them into
+- Searching and browsing installed sources
+- Ability to download Manga for offline read
+- Backup and restore support powered by Tachiyomi-compatible Backups
+- Viewing latest updated chapters.
+
+**Note:** These are capabilities of Tachidesk-Server, the actual working support is provided by each front-end app, checkout their respective readme for more info.
+
+[Full README](https://github.com/Suwayomi/Tachidesk-Server)
+
+*Please Note:* This is an automatically updated package.  If the package is outdated for more than two days, please let me know!
+    </description>
+    <releaseNotes>https://github.com/Suwayomi/Tachidesk-Server/releases</releaseNotes>
+    <projectUrl>https://github.com/Suwayomi/Tachidesk-Server</projectUrl>
+    <projectSourceUrl>https://github.com/Suwayomi/Tachidesk-Server</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/Suwayomi/Tachidesk-Server/issues</bugTrackerUrl>
+    <docsUrl>https://github.com/Suwayomi/Tachidesk-Server/wiki</docsUrl>
+    <packageSourceUrl>https://github.com/jonasw234/au-packages/tree/master/tachidesk-server</packageSourceUrl>
+    <tags>manga mangareader manga-reader manga-downloader tachiyomi tachidesk tachidesk-server</tags>
+    <copyright>Suwayomi</copyright>
+    <licenseUrl>https://github.com/Suwayomi/Tachidesk-Server/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.statically.io/gh/Suwayomi/Tachidesk/39490ce7/server/src/main/resources/icon/faviconlogo.png</iconUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
