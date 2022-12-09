@@ -1,6 +1,6 @@
 Import-Module au
 
-$releases = 'https://github.com/federico-terzi/espanso/releases'
+$releases = 'https://api.github.com/repos/federico-terzi/espanso/releases/latest'
 
 function global:au_SearchReplace {
    @{
@@ -17,11 +17,11 @@ function global:au_GetLatest {
 
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 
-    $url64   = $download_page.links | Where-Object href -match '-win-installer' | Select-Object -First 1 -expand href
-    $version = $url64.split('/v')[6]
+    $url64   = (($download_page.Content | ConvertFrom-Json).assets | Where-Object browser_download_url -match '-win-installer.+\.exe$').browser_download_url
+    $version = $url64.split('/v')[8]
 
     @{
-        URL64   = 'https://github.com' + $url64
+        URL64   = $url64
         Version = $version
     }
 }
