@@ -1,6 +1,6 @@
 Import-Module au
 
-$releases = 'https://github.com/Neo23x0/Raccine/releases'
+$releases = 'https://api.github.com/repos/Neo23x0/Raccine/releases/latest'
 
 function global:au_SearchReplace {
    @{
@@ -17,7 +17,7 @@ function global:au_GetLatest {
 
     $re      = 'Raccine\.zip$'
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
-    $url     = $download_page.links | Where-Object href -match $re | ForEach-Object href | Select-Object -First 1
+    $url     = (($download_page.Content | ConvertFrom-Json).assets | Where-Object browser_download_url -match $re).browser_download_url
     $version = $url -match '\/(\d+(\.\d+)*)\/'
     $version = $matches[1]
 
