@@ -1,6 +1,6 @@
 Import-Module au
 
-$releases = 'https://github.com/qarmin/czkawka/releases'
+$releases = 'https://api.github.com/repos/qarmin/czkawka/releases/latest'
 
 function global:au_SearchReplace {
    @{
@@ -18,7 +18,7 @@ function global:au_GetLatest {
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 
     $file    = 'windows_czkawka_gui\.zip$'
-    $url     = $download_page.links | Where-Object href -match $file | ForEach-Object href | Select-Object -First 1
+    $url     = (($download_page.Content | ConvertFrom-Json).assets | Where-Object browser_download_url -Match $file).browser_download_url
     $version = $url -split '\/download\/|\/' + $file
     $version = $version[1]
 
