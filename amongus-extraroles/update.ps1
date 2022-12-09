@@ -18,13 +18,13 @@ function global:au_GetLatest {
 
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 
-    $re      = 'Extra\.Roles\.v\.(((\d+\.)*-?)+\d+)\.zip'
+    $file    = 'Extra\.Roles\.v\.(.+)\.zip'
     $url     = (($download_page.Content | ConvertFrom-Json).assets | Where-Object browser_download_url -Match $file).browser_download_url
-    $version = $url -split '\/v|\/' + $re
-    $version = $version[1]
+    $version = $url -split '\/v|\/' + $file
+    $version = $version[2]
 
     @{
-        URL     = 'https://github.com' + $url
+        URL     = $url
         Version = $version
     }
 }
