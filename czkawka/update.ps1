@@ -23,7 +23,7 @@ function global:au_GetLatest {
     $version = $version[1]
 
     return @{
-        URL64   = 'https://github.com' + $url
+        URL64   = $url
         Version = $version
     }
 }

@@ -1,7 +1,7 @@
 Import-Module au
 . $PSScriptRoot\..\_scripts\all.ps1
 
-$releases = 'https://github.com/NotHunter101/ExtraRolesAmongUs/releases'
+$releases = 'https://api.github.com/repos/NotHunter101/ExtraRolesAmongUs/releases/latest'
 
 function global:au_SearchReplace {
    @{
@@ -18,8 +18,8 @@ function global:au_GetLatest {
 
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 
-    $re      = 'Role\.Mod\.v\.(\d+\.)*\d+\.zip'
-    $url     = $download_page.links | Where-Object href -match $re | ForEach-Object href | Select-Object -First 1
+    $re      = 'Extra\.Roles\.v\.(((\d+\.)*-?)+\d+)\.zip'
+    $url     = (($download_page.Content | ConvertFrom-Json).assets | Where-Object browser_download_url -Match $file).browser_download_url
     $version = $url -split '\/v|\/' + $re
     $version = $version[1]
 

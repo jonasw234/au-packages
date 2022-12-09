@@ -19,8 +19,8 @@ function global:au_GetLatest {
 
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 
-    $url32   = $download_page.links | Where-Object href -match '-32bit.msi$' | ForEach-Object href | Select-Object -First 1
-    $url64   = $download_page.links | Where-Object href -match '-64bit.msi$' | ForEach-Object href | Select-Object -First 1
+    $url32   = $download_page.links | Where-Object href -match '-32bit.msi$' | Select-Object -First 1 -expand href
+    $url64   = $download_page.links | Where-Object href -match '-64bit.msi$' | Select-Object -First 1 -expand href
     $version = (Split-Path ( Split-Path $url64 ) -Leaf).Split('-')[1]
 
     @{

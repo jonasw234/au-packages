@@ -16,7 +16,7 @@ function global:au_GetLatest {
     $AllProtocols = [System.Net.SecurityProtocolType]'Tls11,Tls12'
     [System.Net.ServicePointManager]::SecurityProtocol = $AllProtocols
 
-    $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
+    $download_page = Invoke-WebRequest -Uri $releases
 
     $re      = 'Brim-Setup.*\.exe'
     $url     = $download_page.links | Where-Object href -match $re | ForEach-Object href | Select-Object -First 1
