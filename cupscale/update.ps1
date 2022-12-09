@@ -1,6 +1,6 @@
 Import-Module au
 
-$releases = 'https://github.com/n00mkrad/cupscale/releases'
+$releases = 'https://api.github.com/repos/n00mkrad/cupscale/releases/latest'
 
 function global:au_SearchReplace {
    @{
@@ -18,12 +18,12 @@ function global:au_GetLatest {
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 
     $file    = 'cupscale[^/]+\.zip$'
-    $url     = $download_page.links | Where-Object href -match $file | ForEach-Object href | Select-Object -First 1
+    $url     = (($download_page.Content | ConvertFrom-Json).assets | Where-Object browser_download_url -match $file).browser_download_url
     $version = $url -split '\/download\/|\/' + $file
     $version = $version[1]
 
     return @{
-        URL     = 'https://github.com' + $url
+        URL     = $url
         Version = $version
     }
 }
