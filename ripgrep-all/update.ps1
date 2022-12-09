@@ -1,6 +1,6 @@
 Import-Module au
 
-$releases = 'https://github.com/phiresky/ripgrep-all/releases'
+$releases = 'https://api.github.com/repos/phiresky/ripgrep-all/releases/latest'
 
 function global:au_SearchReplace {
    @{
@@ -17,11 +17,11 @@ function global:au_GetLatest {
 
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 
-    $url64   = $download_page.links | ? href -match '-x86_64-pc-windows-msvc.(7z|zip)$' | % href | select -First 1
+    $url64   = (($download_page.Content | ConvertFrom-Json).assets | Where-Object browser_download_url -match '-x86_64-pc-windows-msvc.(7z|zip)$').browser_download_url
     $version = (Split-Path ( Split-Path $url64 ) -Leaf).Replace('v', '')
 
     @{
-        URL64   = 'https://github.com' + $url64
+        URL64   = $url64
         Version = $version
     }
 }
