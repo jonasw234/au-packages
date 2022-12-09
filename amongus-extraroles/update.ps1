@@ -21,7 +21,7 @@ function global:au_GetLatest {
     $file    = 'Extra\.Roles\.v\.(.+)\.zip'
     $url     = (($download_page.Content | ConvertFrom-Json).assets | Where-Object browser_download_url -Match $file).browser_download_url
     $version = $url -split '\/v|\/' + $file
-    $version = $version[2]
+    $version = ($version[2] -split '-')[0]
 
     @{
         URL     = $url
