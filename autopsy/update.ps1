@@ -1,6 +1,6 @@
 Import-Module au
 
-$releases = 'https://github.com/sleuthkit/autopsy/releases/'
+$releases = 'https://api.github.com/repos/sleuthkit/autopsy/releases/latest'
 
 function global:au_SearchReplace {
    @{
@@ -19,13 +19,14 @@ function global:au_GetLatest {
 
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 
-    $url32   = $download_page.links | Where-Object href -match '-32bit.msi$' | Select-Object -First 1 -expand href
-    $url64   = $download_page.links | Where-Object href -match '-64bit.msi$' | Select-Object -First 1 -expand href
+    $json    = ($download_page.Content | ConvertFrom-Json).assets
+    $url32   = $json | Where-Object browser_download_url -match '-32bit.msi$' | Select-Object -First 1 -expand browser_download_url
+    $url64   = $json | Where-Object browser_download_url -match '-64bit.msi$' | Select-Object -First 1 -expand browser_download_url
     $version = (Split-Path ( Split-Path $url64 ) -Leaf).Split('-')[1]
 
     @{
-        URL32   = 'https://github.com' + $url32
-        URL64   = 'https://github.com' + $url64
+        URL32   = $url32
+        URL64   = $url64
         Version = $version
     }
 }
