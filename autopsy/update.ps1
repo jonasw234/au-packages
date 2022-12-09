@@ -20,15 +20,15 @@ function global:au_GetLatest {
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 
     $json    = ($download_page.Content | ConvertFrom-Json).assets
-    $url32   = $json | Where-Object browser_download_url -match '-32bit.msi$' | Select-Object -First 1 -expand browser_download_url
+    # $url32   = $json | Where-Object browser_download_url -match '-32bit.msi$' | Select-Object -First 1 -expand browser_download_url  # 32 bit version currently not available as of 2022-12-09
     $url64   = $json | Where-Object browser_download_url -match '-64bit.msi$' | Select-Object -First 1 -expand browser_download_url
     $version = (Split-Path ( Split-Path $url64 ) -Leaf).Split('-')[1]
 
     @{
-        URL32   = $url32
+        # URL32   = $url32
         URL64   = $url64
         Version = $version
     }
 }
 
-Update-Package -ChecksumFor All
+Update-Package -ChecksumFor 64
