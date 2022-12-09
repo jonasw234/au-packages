@@ -1,6 +1,6 @@
 Import-Module au
 
-$releases = 'https://github.com/Suwayomi/Tachidesk-Server/releases'
+$releases = 'https://api.github.com/repos/Suwayomi/Tachidesk-Server/releases/latest'
 
 function global:au_SearchReplace {
    @{
@@ -19,13 +19,14 @@ function global:au_GetLatest {
 
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 
-    $url32   = $download_page.links | Where-Object href -match '-x86.msi$' | ForEach-Object href | Select-Object -First 1
-    $url64   = $download_page.links | Where-Object href -match '-x64.msi$' | ForEach-Object href | Select-Object -First 1
-    $version = (Split-Path ( Split-Path $url64 ) -Leaf).Split('-')[1]
+    $json    = ($download_page.Content | ConvertFrom-Json).assets
+    $url32   = ($json | Where-Object browser_download_url -match '-x86.msi$').browser_download_url
+    $url64   = ($json | Where-Object browser_download_url -match '-x64.msi$').browser_download_url
+    $version = (Split-Path ( Split-Path $url64 ) -Leaf).Split('/v')[1]
 
     @{
-        URL32   = 'https://github.com' + $url32
-        URL64   = 'https://github.com' + $url64
+        URL32   = $url32
+        URL64   = $url64
         Version = $version
     }
 }
