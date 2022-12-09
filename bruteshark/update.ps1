@@ -1,7 +1,7 @@
 Import-Module au
 . $PSScriptRoot\..\_scripts\all.ps1
 
-$releases = 'https://github.com/odedshimon/BruteShark/releases'
+$releases = 'https://api.github.com/repos/odedshimon/BruteShark/releases/latest'
 
 function global:au_SearchReplace {
    @{
@@ -19,14 +19,14 @@ function global:au_GetLatest {
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 
     $re      = 'BruteSharkDesktopInstaller_x64\.msi$'
-    $url     = $download_page.links | Where-Object href -match $re | ForEach-Object href | Select-Object -First 1
+    $url     = (($download_page.Content | ConvertFrom-Json).assets | Where-Object browser_download_url -match $re).browser_download_url
     $version = $url -split '\/v|\/' + $re
     $version = $version[1]
 
     return @{
-        URL64   = 'https://github.com' + $url
+        URL64   = $url
         Version = $version
     }
 }
 
-Update-Package -ChecksumFor all
+Update-Package -ChecksumFor 64
