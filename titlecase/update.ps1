@@ -1,7 +1,7 @@
 Import-Module au
 . $PSScriptRoot\..\_scripts\all.ps1
 
-$releases = 'https://github.com/wezm/titlecase/releases'
+$releases = 'https://api.github.com/repos/wezm/titlecase/releases/latest'
 
 function global:au_SearchReplace {
    @{
@@ -21,12 +21,10 @@ function global:au_GetLatest {
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 
     $re      = '-i686-pc-windows-msvc.zip$'
-    $domain  = $releases -split '(?<=//.+)/' | select -First 1
-    $url     = $download_page.links | ? href -match $re | select -First 1 -expand href
-    $url     = $url | % {$domain + $_ }
-    $re      = '-x86_64-pc-windows-msvc.zip$'
-    $url64   = $download_page.links | ? href -match $re | select -First 1 -expand href
-    $url64   = $url64 | % {$domain + $_ }
+    $json    = ($download_page.Content | ConvertFrom-Json).assets
+    $url32   = ($json | Where-Object browser_download_url -match $re).browser_download_url
+    $re64    = '-x86_64-pc-windows-msvc$'
+    $url64   = ($json | Where-Object browser_download_url -match $re64).browser_download_url
     $version = $url64 -split '[-]|.zip' | select -First 1 -Skip 1
     $version = $version.substring(1)
 
