@@ -20,10 +20,10 @@ function global:au_GetLatest {
 
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 
-    $re32    = 'Obsidian\.(\d+\.)+-32\.exe'
+    $re32    = 'Obsidian\.((\d+\.)+\d+)-32\.exe'
     $json    = ($download_page.Content | ConvertFrom-Json).assets
     $url32   = ($json | Where-Object browser_download_url -match $re32).browser_download_url
-    $re64    = 'Obsidian\.(\d+\.)+\.exe'
+    $re64    = 'Obsidian\.(\d+\.)+\d+\.exe'
     $url64   = ($json | Where-Object browser_download_url -match $re64).browser_download_url
     $version = $url32 -match $re32
     $version = $matches[1]
