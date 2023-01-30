@@ -4,7 +4,7 @@
   <metadata>
     <id>gimagereader</id>
     <title>gImageReader</title>
-    <version>3.4.0</version>
+    <version>3.4.1</version>
     <authors>Sandro Mani</authors>
     <owners>Jonas A. Wendorf</owners>
     <summary>A Gtk/Qt front-end to tesseract-ocr.</summary>
