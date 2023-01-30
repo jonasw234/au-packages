@@ -11,7 +11,7 @@
     <description>
 ![espanso](https://cdn.staticaly.com/gh/federico-terzi/espanso/master/images/titlebar.png)
 
-&gt; A cross-platform Text Expander written in Rust
+> A cross-platform Text Expander written in Rust
 
 ![example](https://cdn.staticaly.com/gh/federico-terzi/espanso/master/images/example.gif)
 
@@ -52,7 +52,7 @@ espanso is a free, open source software developed in my (little) spare time.
 If you liked the project and would like to support further development,
 please consider making a small donation, it really helps :)
 
-[![Donate with PayPal](images/donate.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=FHNLR5DRS267E&amp;source=url)
+[![Donate with PayPal](https://cdn.statically.io/gh/espanso/espanso/dev/images/donate.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FHNLR5DRS267E&source=url)
     </description>
     <projectUrl>https://github.com/federico-terzi/espanso</projectUrl>
     <projectSourceUrl>https://github.com/federico-terzi/espanso</projectSourceUrl>
