@@ -10,7 +10,7 @@ $packageArgs = @{
     # checksumType   = 'sha256'
     url64bit       = 'https://github.com/manisandro/gImageReader/releases/download/v3.4.1/gImageReader_3.4.1_qt5_x86_64.exe'
     checksum64     = '017b5f63664ac0636f60a8a1140b9ff2cd351dc2ad1c160eb0d91e1d1555e2b9'
-    checksum64Type = 'sha256'
+    checksumType64 = 'sha256'
     silentArgs     = '/S'
 }
 Install-ChocolateyPackage @packageArgs
