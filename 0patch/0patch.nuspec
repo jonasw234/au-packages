@@ -1,10 +1,10 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>0patch</id>
     <title>0patch</title>
-    <version>21.05.05.10500</version>
+    <version>22.11.11.10550</version>
     <authors>ACROS Security</authors>
     <owners>Jonas A. Wendorf</owners>
     <summary>No more patching headaches</summary>
