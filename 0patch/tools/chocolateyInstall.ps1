@@ -4,8 +4,8 @@ $packageArgs = @{
   fileType       = 'msi'
   packageName    = '0patch'
   url            = 'https://dist.0patch.com/download/latestagent'
-  checksum       = ''
-  checksumType   = 'sha256'
+  checksum32     = '492e2c8e63be6e484b06d45d2fb6276db7de5a0fba161bf34b10ddeb98e53d32'
+  checksumType32 = 'sha256'
   silentArgs     = '/qn /norestart'
   validExitCodes = @(0)
 }
