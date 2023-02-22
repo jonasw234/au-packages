@@ -6,7 +6,7 @@ $releases = 'https://dist.0patch.com/download/latestagent'
 function global:au_SearchReplace {
    @{
         ".\tools\chocolateyInstall.ps1" = @{
-            "(?i)(^\s*checksum\s*=\s*)('.*')" = "`$1'$($Latest.Checksum)'"
+            "(?i)(^\s*checksum32\s*=\s*)('.*')" = "`$1'$($Latest.Checksum)'"
         }
     }
 }
@@ -21,4 +21,4 @@ function global:au_GetLatest {
     }
 }
 
-Update-Package -ChecksumFor All
+Update-Package -ChecksumFor 32
