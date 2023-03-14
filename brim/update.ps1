@@ -1,7 +1,7 @@
 Import-Module au
 . $PSScriptRoot\..\_scripts\all.ps1
 
-$releases = 'https://api.github.com/repos/brimdata/brim/releases/latest'
+$releases = 'https://api.github.com/repos/brimdata/zui/releases/latest'
 
 function global:au_SearchReplace {
    @{
@@ -18,7 +18,7 @@ function global:au_GetLatest {
 
     $download_page = Invoke-WebRequest -Uri $releases
 
-    $re      = 'Brim-Setup.*\.exe$'
+    $re      = 'Zui-Setup.*\.exe$'
     $url     = (($download_page.Content | ConvertFrom-Json).assets | Where-Object browser_download_url -match $re).browser_download_url
     $version = $url -split '\/v|\/' + $re
     $version = $version[1]
