@@ -2,9 +2,9 @@
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
-    <id>zui</id>
+    <id>brim</id>
     <title>Zui</title>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <authors>Brim Data</authors>
     <owners>Jonas A. Wendorf</owners>
     <summary>Desktop application to efficiently search large packet captures and Zeek logs.</summary>
