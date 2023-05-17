@@ -31,7 +31,7 @@ Some significant features of this fork
     <projectSourceUrl>https://github.com/xiaoyifang/goldendict-ng</projectSourceUrl>
     <bugTrackerUrl>https://github.com/xiaoyifang/goldendict-ng/issues</bugTrackerUrl>
     <packageSourceUrl>https://github.com/jonasw234/au-packages/tree/master/goldendict-ng</packageSourceUrl>
-    <tags>dictionary translation glossary lookup online offline</tags>
+    <tags>dictionary translation glossary lookup online offline thesaurus morphology</tags>
     <copyright>xiaoyifang</copyright>
     <licenseUrl>https://github.com/xiaoyifang/goldendict-ng/blob/staged/LICENSE.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
