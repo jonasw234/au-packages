@@ -40,7 +40,7 @@ Plain text Markdown also gives you the unparalleled interoperability to use any 
     <packageSourceUrl>https://github.com/jonasw234/au-packages/tree/master/obsidian</packageSourceUrl>
     <tags>markdown editor note keeping wiki</tags>
     <copyright>Obsidian</copyright>
-    <licenseUrl>https://obsidian.md/eula</licenseUrl>
+    <licenseUrl>https://obsidian.md/license</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>https://forum.obsidian.md/c/announcements</releaseNotes>
   </metadata>
