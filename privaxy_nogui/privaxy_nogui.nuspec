@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>privaxy_nogui</id>
+    <title>Privaxy (No GUI)</title>
+    <version>0.5.2</version>
+    <authors>Pierre Barre</authors>
+    <owners>Jonas A. Wendorf</owners>
+    <summary>Privaxy is the next generation tracker and advertisement blocker. It blocks ads and trackers by MITMing HTTP(s) traffic.</summary>
+    <description>
+![](https://cdn.statically.io/img/user-images.githubusercontent.com/45085843/146658168-a4770cf5-e1b1-40e6-8931-ffc64d3d4936.png)
+
+# About
+Privaxy is a MITM HTTP(s) proxy that sits in between HTTP(s) talking applications, such as a web browser and HTTP servers, such as those serving websites.
+
+By establishing a two-way tunnel between both ends, Privaxy is able to block network requests based on URL patterns and to inject scripts as well as styles into HTML documents.
+
+Operating at a lower level, Privaxy is both more efficient as well as more streamlined than browser add-on-based blockers. A single instance of Privaxy on a small virtual machine, server or even, on the same computer as the traffic is originating from, can filter thousands of requests per second while requiring a very small amount of memory.
+
+Privaxy is not limited by the browser’s APIs and can operate with any HTTP traffic, not only the traffic flowing from web browsers.
+
+Privaxy is also way more capable than DNS-based blockers as it is able to operate directly on URLs and to inject resources into web pages.
+
+# Features
+- Suppport for [Adblock Plus filters](https://adblockplus.org/filter-cheatsheet), such as [easylist](https://easylist.to/).
+- Web graphical user interface with a statistics display as well as a live request explorer.
+- Support for uBlock origin's js syntax.
+- Support for uBlock origin's redirect syntax.
+- Support for uBlock origin's scriptlets.
+- Browser and HTTP client agnostic.
+- Support for custom filters.
+- Support for excluding hosts from the MITM pipeline.
+- Support for protocol upgrades, such as with websockets.
+- Automatic filter lists updates.
+- Very low resource usage.
+    - Around 50MB of memory with approximately 320 000 filters enabled.
+    - Able to filter thousands of requests per second on a small machine.
+
+*Please Note:* This is an automatically updated package.  If the package is outdated for more than two days, please let me know!
+    </description>
+    <projectUrl>https://github.com/Barre/privaxy</projectUrl>
+    <projectSourceUrl>https://github.com/Barre/privaxy</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/Barre/privaxy/issues</bugTrackerUrl>
+    <docsUrl>https://github.com/Barre/privaxy/blob/main/README.md</docsUrl>
+    <packageSourceUrl>https://github.com/jonasw234/au-packages/tree/master/privaxy_nogui</packageSourceUrl>
+    <tags>proxy mitm http-proxy ad-blocker adblock blocker adblocker servers adblocking blocker-proxy console</tags>
+    <copyright>Pierre Barre</copyright>
+    <licenseUrl>https://github.com/Barre/privaxy/blob/main/LICENSE.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>https://github.com/Barre/privaxy/releases</releaseNotes>
+    <iconUrl>https://cdn.statically.io/img/d4.alternativeto.net/YuvAn477fuv3yXTolYynI2aUh-0iE6KtPfHaUKUdQqw/rs:fill:140:140:0/g:ce:0:0/YWJzOi8vZGlzdC9pY29ucy9wcml2YXh5XzIxMjc4OC5wbmc.png</iconUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
