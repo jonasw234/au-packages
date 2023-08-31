@@ -5,8 +5,8 @@ $packageName = $env:chocolateyPackageName
 $packageArgs = @{
     packageName    = $packageName
     unzipLocation  = Split-Path $MyInvocation.MyCommand.Definition
-    url64Bit       = 'https://github.com/watchexec/watchexec/releases/download/v1.22.3/watchexec-1.22.3-x86_64-pc-windows-msvc.zip'
-    checksum64     = '3175f56cc8aca407e878938f015ed4d1b6e93f185b5f6c4c0a4a7feb987fd152'
+    url64Bit       = 'https://github.com/watchexec/watchexec/releases/download/v1.23.0/watchexec-1.23.0-x86_64-pc-windows-msvc.zip'
+    checksum64     = '394ba47e582044a065ccfe7acf951b30fa25bf003a246050aa84772c864ad94b'
     checksumType64 = 'sha256'
 }
 
