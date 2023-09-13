@@ -5,11 +5,11 @@ $packageName = $env:chocolateyPackageName
 $packageArgs = @{
   packageName    = $packageName
   fileType       = 'exe'
-  url            = 'https://github.com/obsidianmd/obsidian-releases/releases/download/v1.4.11/Obsidian.1.4.11-32.exe'
-  checksum       = '9307dafdb63b8c987ba04f8cb8957be6a6a8414789c727f57d72aaf33876264e'
+  url            = 'https://github.com/obsidianmd/obsidian-releases/releases/download/v1.4.12/Obsidian.1.4.12-32.exe'
+  checksum       = 'ba42f949ed20804f3bb64ab3941566d276d63d90dc384f035e433745493698f3'
   checksumType   = 'sha256'
-  url64bit       = 'https://github.com/obsidianmd/obsidian-releases/releases/download/v1.4.11/Obsidian.1.4.11.exe'
-  checksum64     = 'ac6268ed81c78f9d783dc249fa612e6f2461485bfd9b5059376ed2f74c4c2fbc'
+  url64bit       = 'https://github.com/obsidianmd/obsidian-releases/releases/download/v1.4.12/Obsidian.1.4.12.exe'
+  checksum64     = 'bf2cbcfe3632a4a85d65f7b3fb8da2c45174680c5ab4f09f5cccb13b7c351cb8'
   checksumType64 = 'sha256'
   silentArgs     = '/S'
 }
