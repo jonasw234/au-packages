@@ -6,10 +6,10 @@ $packageArgs = @{
   packageName    = $packageName
   fileType       = 'exe'
   url            = 'https://github.com/obsidianmd/obsidian-releases/releases/download/v1.4.14/Obsidian.1.4.14-32.exe'
-  checksum       = '1106188f24f98bbd991de26a7a2cd1f44f80f90aef191940a979dfeafabdaa6b'
+  checksum       = 'de64c4a0e8e4dfcf9593628cd22362d8568c54a23e77214ca7c75cb30f843a30'
   checksumType   = 'sha256'
   url64bit       = 'https://github.com/obsidianmd/obsidian-releases/releases/download/v1.4.14/Obsidian.1.4.14.exe'
-  checksum64     = 'd9ef55c13cb14b848c036e8c333abaf1f2eadbc041c8ccdfddc59898b943d96b'
+  checksum64     = '57fc583f32d4f7ef734fa1a2a3ed81f2be68b580634cdeeb7bc1289a3428513c'
   checksumType64 = 'sha256'
   silentArgs     = '/S'
 }
