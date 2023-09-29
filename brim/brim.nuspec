@@ -34,7 +34,7 @@ Highlights:
     <packageSourceUrl>https://github.com/jonasw234/au-packages/tree/master/brim</packageSourceUrl>
     <tags>wireshark zeek packet capture structured logs network analysis security brim zed zui</tags>
     <copyright>Brim Data</copyright>
-    <licenseUrl>https://github.com/brimdata/brim/blob/master/LICENSE.txt</licenseUrl>
+    <licenseUrl>https://github.com/brimdata/zui/blob/main/apps/zui/LICENSE.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>https://github.com/brimdata/zui/releases</releaseNotes>
     <dependencies>
