@@ -5,8 +5,8 @@ $packageName = $env:chocolateyPackageName
 $packageArgs = @{
   packageName  = $packageName
   fileType     = 'exe'
-  url          = 'https://github.com/brimdata/zui/releases/download/v1.4.0/Zui-Setup-1.4.0.exe'
-  checksum     = 'e67cbdc2c473912a3b2b41f3224f4d28b2b1b3ab9afb4690884a2d572c1a68f9'
+  url          = 'https://github.com/brimdata/zui/releases/download/v1.4.1/Zui-Setup-1.4.1.exe'
+  checksum     = 'ce406e72993331704d81ea32b0ce2639e2454aaa0fb41918ca96800cf040392f'
   checksumType = 'sha256'
   silentArgs   = '/S'
 }
