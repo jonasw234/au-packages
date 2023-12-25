@@ -1,11 +1,12 @@
 Import-Module au
+. $PSScriptRoot\..\_scripts\all.ps1
 
 $releases = 'https://api.github.com/repos/federico-terzi/espanso/releases/latest'
 
 function global:au_SearchReplace {
-   @{
+    @{
         ".\tools\chocolateyInstall.ps1" = @{
-            "(?i)(^\s*url64\s*=\s*)('.*')"      = "`$1'$($Latest.URL64)'"
+            "(?i)(^\s*url64bit\s*=\s*)('.*')"   = "`$1'$($Latest.URL64)'"
             "(?i)(^\s*checksum64\s*=\s*)('.*')" = "`$1'$($Latest.Checksum64)'"
         }
     }
@@ -17,7 +18,7 @@ function global:au_GetLatest {
 
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 
-    $url64   = (($download_page.Content | ConvertFrom-Json).assets | Where-Object browser_download_url -match '-win-installer.+\.exe$').browser_download_url
+    $url64 = (($download_page.Content | ConvertFrom-Json).assets | Where-Object browser_download_url -match '-win-installer.+\.exe$').browser_download_url
     $version = $url64.split('/v')[8]
 
     @{

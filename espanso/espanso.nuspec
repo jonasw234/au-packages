@@ -4,14 +4,14 @@
   <metadata>
     <id>espanso</id>
     <title>espanso</title>
-    <version>2.1.8</version>
+    <version>2.2.1</version>
     <authors>Federico Terzi</authors>
     <owners>Jonas A. Wendorf</owners>
     <summary>Cross-platform Text Expander written in Rust</summary>
     <description>
 ![espanso](https://cdn.staticaly.com/gh/federico-terzi/espanso/master/images/titlebar.png)
 
-> A cross-platform Text Expander written in Rust
+&gt; A cross-platform Text Expander written in Rust
 
 ![example](https://cdn.staticaly.com/gh/federico-terzi/espanso/master/images/example.gif)
 
