@@ -45,19 +45,11 @@ ___
 ## Get Started
 
 Visit the [official documentation](https://espanso.org/docs/).
-
-## Donations
-
-espanso is a free, open source software developed in my (little) spare time.
-If you liked the project and would like to support further development,
-please consider making a small donation, it really helps :)
-
-[![Donate with PayPal](https://cdn.statically.io/gh/espanso/espanso/dev/images/donate.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FHNLR5DRS267E&source=url)
     </description>
-    <projectUrl>https://github.com/federico-terzi/espanso</projectUrl>
+    <projectUrl>https://espanso.org/</projectUrl>
     <projectSourceUrl>https://github.com/federico-terzi/espanso</projectSourceUrl>
     <bugTrackerUrl>https://github.com/federico-terzi/espanso/issues</bugTrackerUrl>
-    <docsUrl>https://espanso.org/docs/</docsUrl>
+    <docsUrl>https://espanso.org/docs/get-started/</docsUrl>
     <packageSourceUrl>https://github.com/jonasw234/au-packages/tree/master/espanso</packageSourceUrl>
     <tags>text expander keyword replace system-wide typing scriptable</tags>
     <copyright>Federico Terzi</copyright>
