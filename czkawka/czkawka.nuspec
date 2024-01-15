@@ -47,7 +47,7 @@
     <packageSourceUrl>https://github.com/jonasw234/au-packages/tree/master/czkawka</packageSourceUrl>
     <tags>duplicate finder similar images music metadata tags invalid symlinks temporary files big zeroed redundant clean</tags>
     <copyright>czkawka</copyright>
-    <licenseUrl>https://github.com/qarmin/czkawka/blob/master/LICENSE</licenseUrl>
+    <licenseUrl>https://github.com/qarmin/czkawka#usage-installation-compilation-requirements-license</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>https://github.com/qarmin/czkawka/releases</releaseNotes>
   </metadata>
