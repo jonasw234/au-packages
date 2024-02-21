@@ -4,7 +4,7 @@
   <metadata>
     <id>tachidesk-server</id>
     <title>Suwayomi</title>
-    <version>0.7.0</version>
+    <version>0.7.0.1-r1493-rc</version>
     <authors>Suwayomi</authors>
     <owners>Jonas A. Wendorf</owners>
     <summary>A rewrite of Tachiyomi for the Desktop</summary>
