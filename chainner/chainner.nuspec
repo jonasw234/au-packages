@@ -14,15 +14,11 @@
 [![GitHub Latest Release](https://img.shields.io/github/v/release/chaiNNer-org/chaiNNer)](https://github.com/chaiNNer-org/chaiNNer/releases/latest)
 [![GitHub Total Downloads](https://img.shields.io/github/downloads/chaiNNer-org/chaiNNer/total)](https://github.com/chaiNNer-org/chaiNNer/releases)
 [![License](https://img.shields.io/github/license/chaiNNer-org/chaiNNer)](https://github.com/chaiNNer-org/chaiNNer/blob/main/LICENSE)
-[![Discord](https://img.shields.io/discord/930865462852591648?label=Discord&logo=Discord&logoColor=white&color=5865F2)](https://discord.gg/pzvAKPKyHM)
-[![ko-fi](https://img.shields.io/badge/Ko--fi-Support%20chaiNNer%20-hotpink?logo=kofi&logoColor=white)](https://ko-fi.com/T6T46KTTW)
+[![Discord](https://img.shields.io/discord/930865462852591648?label=Discord&amp;logo=Discord&amp;logoColor=white&amp;color=5865F2)](https://discord.gg/pzvAKPKyHM)
+[![ko-fi](https://img.shields.io/badge/Ko--fi-Support%20chaiNNer%20-hotpink?logo=kofi&amp;logoColor=white)](https://ko-fi.com/T6T46KTTW)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)
 
-<p align="center">
-  <a href="https://github.com/chaiNNer-org/chaiNNer/releases" target="_blank">
-      <img src="https://cdn.statically.io/gh/chaiNNer-org/chaiNNer/main/docs/assets/banner.png" width="720" />
-  </a>
-</p>
+[![](https://cdn.statically.io/gh/chaiNNer-org/chaiNNer/main/docs/assets/banner.png)](https://github.com/chaiNNer-org/chaiNNer/releases)
 
 A node-based image processing GUI aimed at making chaining image processing tasks easy and customizable. Born as an AI upscaling application, chaiNNer has grown into an extremely flexible and powerful programmatic image processing application.
 
