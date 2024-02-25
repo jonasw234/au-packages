@@ -12,7 +12,7 @@ if ($key.Count -eq 1) {
       fileType       = 'EXE'
       silentArgs     = '/S'
       validExitCodes = @(0)
-      file           = "$($_.UninstallString.Trim('"'))"
+      file           = "$($_.UninstallString.Split("/")[0].Trim('"'))"
     }
 
     Uninstall-ChocolateyPackage @packageArgs
