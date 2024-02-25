@@ -37,7 +37,7 @@ Privaxy is also way more capable than DNS-based blockers as it is able to operat
     - Around 50MB of memory with approximately 320 000 filters enabled.
     - Able to filter thousands of requests per second on a small machine.
 
-*Please Note:* This is an automatically updated package.  If the package is outdated for more than two days, please let me know!
+*Please note* This is an automatically updated package.  If the package is outdated for more than two days, please [let me know](https://github.com/jonasw234/au-packages/issues).
 This is the no GUI (console) version of Privaxy. A [GUI version](https://community.chocolatey.org/packages/privaxy) is also available. Both use the same configuration, so you might want to use the GUI for the initial configuration and then switch to the console version for production.
     </description>
     <projectUrl>https://github.com/Barre/privaxy</projectUrl>

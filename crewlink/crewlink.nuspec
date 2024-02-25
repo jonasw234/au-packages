@@ -83,7 +83,7 @@ Distributed under the GNU General Public License v3.0. See `LICENSE` for more in
 [appveyor-url]: https://ci.appveyor.com/project/ottomated/crewlink
 
 *To change the installation directory* use the parameter `--install-arguments='"/D=C:\Users\USERNAME\AppData\Local\Programs\crewlink"'`
-*Please Note:* This is an automatically updated package.  If the package is outdated for more than two days, please let me know!
+*Please note* This is an automatically updated package.  If the package is outdated for more than two days, please [let me know](https://github.com/jonasw234/au-packages/issues).
     </description>
     <iconUrl>https://cdn.statically.io/gh/ottomated/CrewLink/master/logo.png</iconUrl>
     <projectUrl>https://github.com/ottomated/CrewLink</projectUrl>

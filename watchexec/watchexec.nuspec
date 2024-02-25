@@ -49,7 +49,7 @@ Example use cases:
 * Not tied to any particular language or ecosystem
 * Does not require a cryptic command line involving `xargs`
 
-*Please Note:* This is an automatically updated package.  If the package is outdated for more than two days, please let me know!
+*Please note* This is an automatically updated package.  If the package is outdated for more than two days, please [let me know](https://github.com/jonasw234/au-packages/issues).
     </description>
     <projectUrl>https://github.com/watchexec/watchexec</projectUrl>
     <projectSourceUrl>https://github.com/watchexec/watchexec</projectSourceUrl>

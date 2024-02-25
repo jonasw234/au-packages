@@ -13,7 +13,7 @@
 
 For the average customer, a commercial product is identified by its package and brand. On the other hand, vendors can’t just remember all items in the store and use unique identifiers, namely barcodes to keep a close record of everything in stock. One type of code in particular can easily be created with **QR-Code Studio**, just like the name suggests.
 
-*Please Note* This is an automatically updated package.  If the package is outdated for more than two days, please let me know.
+*Please note* This is an automatically updated package.  If the package is outdated for more than two days, please [let me know](https://github.com/jonasw234/au-packages/issues).
     </description>
     <iconUrl>https://cdn.statically.io/gh/jonasw234/au-packages/26ea996e/qr-code-studio/favicon.png</iconUrl>
     <projectUrl>https://www.tec-it.com/de/download/free-software/qrcode-studio/Download.aspx</projectUrl>

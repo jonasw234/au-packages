@@ -60,7 +60,7 @@ You won't be able to run commands that use the blacklisted commands on a raccina
 
 If you have a solid security monitoring that logs all process executions, you could check your logs to see if `vssadmin.exe delete shadows`, `vssadmin.exe resize shadowstorage ...` or the other blocked command lines are frequently or sporadically used for legitimate purposes in which case you should refrain from using Raccine.
 
-*Please Note* This is an automatically updated package.  If the package is outdated for more than two days, please let me know.
+*Please note* This is an automatically updated package.  If the package is outdated for more than two days, please [let me know](https://github.com/jonasw234/au-packages/issues).
     </description>
     <projectUrl>https://github.com/Neo23x0/Raccine</projectUrl>
     <projectSourceUrl>https://github.com/phiresky/ripgrep-all</projectSourceUrl>

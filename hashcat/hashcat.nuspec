@@ -18,7 +18,7 @@
 - Intel CPUs require "OpenCL Runtime for Intel Core and Intel Xeon Processors" (16.1.1 or later)
 - NVIDIA GPUs require "NVIDIA Driver" (440.64 or later) and "CUDA Toolkit" (9.0 or later)
 
-*Please Note* This is an automatically updated package.  If the package is outdated for more than two days, please let me know.
+*Please note* This is an automatically updated package.  If the package is outdated for more than two days, please [let me know](https://github.com/jonasw234/au-packages/issues).
     </description>
     <projectUrl>https://hashcat.net/hashcat/</projectUrl>
     <projectSourceUrl>https://github.com/hashcat/hashcat</projectSourceUrl>

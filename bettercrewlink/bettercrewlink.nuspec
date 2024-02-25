@@ -66,7 +66,7 @@ Free, open, Among Us proximity voice chat.
 This project implements proximity voice chat in Among Us. Everyone in an Among Us lobby with this program running will be able to communicate over voice in-game, with no third-party programs required. Spatial audio ensures that you can only hear people close to you.
 
 *To change the installation directory* use the parameter `--install-arguments='"/D=C:\Users\USERNAME\AppData\Local\Programs\bettercrewlink"'`
-*Please Note:* This is an automatically updated package.  If the package is outdated for more than two days, please let me know!
+*Please note* This is an automatically updated package.  If the package is outdated for more than two days, please [let me know](https://github.com/jonasw234/au-packages/issues).
     </description>
     <iconUrl>https://cdn.statically.io/gh/ottomated/CrewLink/master/logo.png</iconUrl>
     <projectUrl>https://github.com/OhMyGuus/BetterCrewLink</projectUrl>

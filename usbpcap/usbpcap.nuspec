@@ -57,7 +57,7 @@ Licensing:
   USBPcapDriver is licensed under GPLv2 license.
   USBPcapCMD is licensed under BSD 2-Clause license.
 
-*Please Note:* This is an automatically updated package.  If the package is outdated for more than two days, please let me know!
+*Please note* This is an automatically updated package.  If the package is outdated for more than two days, please [let me know](https://github.com/jonasw234/au-packages/issues).
     </description>
     <projectUrl>https://desowin.org/usbpcap/</projectUrl>
     <projectSourceUrl>https://github.com/desowin/usbpcap</projectSourceUrl>

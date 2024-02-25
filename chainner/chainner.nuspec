@@ -30,7 +30,7 @@ For help, suggestions, or just to hang out, you can join the [chaiNNer Discord s
 
 Remember: chaiNNer is still a work in progress and in alpha. While it is slowly getting more to where we want it, it is going to take quite some time to have every possible feature we want to add. If you're knowledgeable in TypeScript, React, or Python, feel free to contribute to this project and help us get closer to that goal.
 
-*Please Note* This is an automatically updated package.  If the package is outdated for more than two days, please let me know.
+*Please note* This is an automatically updated package.  If the package is outdated for more than two days, please [let me know](https://github.com/jonasw234/au-packages/issues).
     </description>
     <projectUrl>https://chainner.app/</projectUrl>
     <projectSourceUrl>https://github.com/chaiNNer-org/chaiNNer</projectSourceUrl>

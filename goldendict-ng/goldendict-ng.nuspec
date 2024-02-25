@@ -24,7 +24,7 @@ Some significant features of this fork
 - daily auto release support
 - lots of bug fixes and improvements
 
-*Please Note:* This is an automatically updated package.  If the package is outdated for more than two days, please let me know!  
+*Please note* This is an automatically updated package.  If the package is outdated for more than two days, please [let me know](https://github.com/jonasw234/au-packages/issues).
     </description>
     <iconUrl>https://cdn.statically.io/gh/xiaoyifang/goldendict-ng/staged/icons/programicon.png</iconUrl>
     <projectUrl>https://xiaoyifang.github.io/goldendict-ng/</projectUrl>

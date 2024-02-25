@@ -37,7 +37,7 @@ AMD/Intel GPU compatibility is possible thanks to BlueAmulet's [esrgan-ncnn-vulk
 - Create various types of comparisons (Side-By-Side, 50/50, and before/after animations as GIF or MP4)
 
 *To change the installation directory* use the parameter `--params "/InstallDir:C:\your\install\path"`.  Temporary files are stored in the installation directory by default, which is why you shouldn’t install the application in protected locations like Program Files.
-*Please Note:* This is an automatically updated package.  If the package is outdated for more than two days, please let me know!
+*Please note* This is an automatically updated package.  If the package is outdated for more than two days, please [let me know](https://github.com/jonasw234/au-packages/issues).
     </description>
     <projectUrl>https://github.com/n00mkrad/cupscale</projectUrl>
     <projectSourceUrl>https://github.com/n00mkrad/cupscale</projectSourceUrl>

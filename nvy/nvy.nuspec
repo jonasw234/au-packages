@@ -33,7 +33,7 @@ Nvy can be started with the following flags:
 - You can use Ctrl+Mousewheel to zoom
 - You can drag files onto Nvy to open them
 
-*Please Note* This is an automatically updated package.  If the package is outdated for more than two days, please let me know.
+*Please note* This is an automatically updated package.  If the package is outdated for more than two days, please [let me know](https://github.com/jonasw234/au-packages/issues).
     </description>
     <iconUrl>https://cdn.statically.io/gh/RMichelsen/Nvy/master/resources/third_party/nvim.ico</iconUrl>
     <projectUrl>https://github.com/RMichelsen/Nvy</projectUrl>
