@@ -38,7 +38,7 @@ Remember: chaiNNer is still a work in progress and in alpha. While it is slowly 
     <docsUrl>https://github.com/chaiNNer-org/chaiNNer?tab=readme-ov-file#how-to-use</docsUrl>
     <iconUrl>https://cdn.statically.io/img/chainner.app/assets/128x128.da537210.png</iconUrl>
     <packageSourceUrl>https://github.com/jonasw234/au-packages/tree/master/chainner</packageSourceUrl>
-    <tags>image upscaling node based processing machine learning esrgan ncnn onnx pytorch u2net isnet super resolution post processing</tags>
+    <tags>image upscaling node-based-processing machine-learning esrgan ncnn onnx pytorch u2net isnet super-resolution post-processing</tags>
     <copyright>chaiNNer-org</copyright>
     <licenseUrl>https://github.com/chaiNNer-org/chaiNNer/blob/main/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
