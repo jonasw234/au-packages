@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>gpt4all</id>
+    <title>GPT4All</title>
+    <version>0.22.0</version>
+    <authors>nomic-ai</authors>
+    <owners>Jonas A. Wendorf</owners>
+    <summary>Open-source large language models that run locally on your CPU and nearly any GPU</summary>
+    <description>
+# GPT4All
+
+Open-source large language models that run locally on your CPU and
+nearly any GPU
+
+[GPT4All Website and Models](https://gpt4all.io)
+
+[GPT4All Documentation](https://docs.gpt4all.io)
+
+[Discord](https://discord.gg/mGZE39AS3e)
+
+[🦜️🔗 Official Langchain Backend](https://python.langchain.com/en/latest/modules/models/llms/integrations/gpt4all.html)
+
+GPT4All is made possible by our compute partner [Paperspace](https://www.paperspace.com/).
+
+[![phorm.ai](https://img.shields.io/badge/Phorm-Ask_AI-%23F2777A.svg)](https://www.phorm.ai/query?projectId=755eecd3-24ad-49cc-abf4-0ab84caacf63)
+
+![](https://user-images.githubusercontent.com/13879686/231876409-e3de1934-93bb-4b4b-9013-b491a969ebbc.gif){width="600"
+height="365"}
+
+Run on an M1 macOS Device (not sped up!)
+
+*Please note* This is an automatically updated package.  If the package is outdated for more than two days, please [let me know](https://github.com/jonasw234/au-packages/issues).
+    </description>
+    <projectUrl>https://gpt4all.io/index.html</projectUrl>
+    <projectSourceUrl>https://github.com/nomic-ai/gpt4all</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/nomic-ai/gpt4all/issues</bugTrackerUrl>
+    <docsUrl>https://docs.gpt4all.io/</docsUrl>
+    <iconUrl>https://cdn.statically.io/gh/nomic-ai/gpt4all/main/gpt4all-chat/icons/logo-64.png</iconUrl>
+    <packageSourceUrl>https://github.com/jonasw234/au-packages/tree/master/gpt4all</packageSourceUrl>
+    <tags>chatgpt llm openai large-language-model machine-learning generative-language-model generative-pre-trained-transformer</tags>
+    <copyright>nomic-ai</copyright>
+    <licenseUrl>https://github.com/nomic-ai/gpt4all/blob/main/LICENSE.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>https://github.com/nomic-ai/gpt4all/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
