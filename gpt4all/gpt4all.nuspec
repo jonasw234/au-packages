@@ -11,8 +11,7 @@
     <description>
 # GPT4All
 
-Open-source large language models that run locally on your CPU and
-nearly any GPU
+Open-source large language models that run locally on your CPU and nearly any GPU
 
 [GPT4All Website and Models](https://gpt4all.io)
 
@@ -26,8 +25,7 @@ GPT4All is made possible by our compute partner [Paperspace](https://www.papersp
 
 [![phorm.ai](https://img.shields.io/badge/Phorm-Ask_AI-%23F2777A.svg)](https://www.phorm.ai/query?projectId=755eecd3-24ad-49cc-abf4-0ab84caacf63)
 
-![](https://user-images.githubusercontent.com/13879686/231876409-e3de1934-93bb-4b4b-9013-b491a969ebbc.gif){width="600"
-height="365"}
+![](https://user-images.githubusercontent.com/13879686/231876409-e3de1934-93bb-4b4b-9013-b491a969ebbc.gif)
 
 Run on an M1 macOS Device (not sped up!)
 
