@@ -1,13 +1,14 @@
 Import-Module au
+. $PSScriptRoot\..\_scripts\all.ps1
 
 $releases = 'https://api.github.com/repos/nomic-ai/gpt4all/releases/latest'
 
 function global:au_SearchReplace
 {
     @{
-        ".\tools\chocolateyinstall.ps1" = @{
-            "(^[$]url64\s*=\s*)('.*')" = "`$1'$( $Latest.URL64 )'"
-            "(^[$]checksum64\s*=\s*)('.*')" = "`$1'$( $Latest.Checksum64 )'"
+        ".\tools\chocolateyInstall.ps1" = @{
+            "(?i)(^\s*url64\s*=\s*)('.*')"      = "`$1'$($Latest.URL64)'"
+            "(?i)(^\s*checksum64\s*=\s*)('.*')" = "`$1'$($Latest.Checksum64)'"
         }
     }
 }
@@ -28,7 +29,7 @@ function global:au_GetLatest
     $version = $version.Substring(1)
 
     return @{
-        URL64   = $url
+        url64   = $url
         Version = $version
     }
 }
