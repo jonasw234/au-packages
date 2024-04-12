@@ -19,7 +19,7 @@ function global:au_GetLatest
 
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 
-    $file    = '-win64-v.+\.exe$'
+    $file    = '-win64-v\d+(\.\d+)+\.exe$'
     $url     = (($download_page.Content | ConvertFrom-Json).assets | Where-Object browser_download_url -Match $file).browser_download_url
     $version = $url -split '\/download\/|\/' + $file | Select-Object -Last 1
     $version = $version -split '/'
