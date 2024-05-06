@@ -5,11 +5,11 @@ $packageName = $env:chocolateyPackageName
 $packageArgs = @{
     packageName    = $packageName
     fileType       = 'msi'
-    url            = 'https://github.com/Suwayomi/Suwayomi-Server-preview/releases/download/v1.0.0-r1519/Suwayomi-Server-v1.0.0-r1519-windows-x86.msi'
-    checksum       = '4051a5c1b203cc373ddba3c892f97b26f2bd751c491e79a01bcfca1e5db76408'
+    url            = 'https://github.com/Suwayomi/Suwayomi-Server-preview/releases/download/v1.0.0-r1521/Suwayomi-Server-v1.0.0-r1521-windows-x86.msi'
+    checksum       = '3660a67f32c8e80b32d92e487314d18f920d28023628410375b1335ce89e634c'
     checksumType   = 'sha256'
-    url64bit       = 'https://github.com/Suwayomi/Suwayomi-Server-preview/releases/download/v1.0.0-r1519/Suwayomi-Server-v1.0.0-r1519-windows-x64.msi'
-    checksum64     = '7a4e93441483b9fcf928e700c6df3d9bd52632e38b8f562efb1b296fe7c19075'
+    url64bit       = 'https://github.com/Suwayomi/Suwayomi-Server-preview/releases/download/v1.0.0-r1521/Suwayomi-Server-v1.0.0-r1521-windows-x64.msi'
+    checksum64     = 'a873106167cf7307a1d176bd5bc95ac358f4e65b325907b7ca53b62eb456c7e4'
     checksumType64 = 'sha256'
     silentArgs     = '/qn /norestart'
 }
