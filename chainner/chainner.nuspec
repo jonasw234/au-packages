@@ -4,7 +4,7 @@
   <metadata>
     <id>chainner</id>
     <title>chaiNNer</title>
-    <version>0.22.0</version>
+    <version>0.24.1</version>
     <authors>chaiNNer-org</authors>
     <owners>Jonas A. Wendorf</owners>
     <summary>A node-based image processing GUI aimed at making chaining image processing tasks easy and customizable. Born as an AI upscaling application, chaiNNer has grown into an extremely flexible and powerful programmatic image processing application.</summary>
