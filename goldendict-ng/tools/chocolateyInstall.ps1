@@ -5,8 +5,8 @@ $packageName = $env:chocolateyPackageName
 $packageArgs = @{
     packageName  = $packageName
     fileType     = 'exe'
-    url          = 'https://github.com/xiaoyifang/goldendict-ng/releases/download/v23.05.01-WuYi.230501.6c8b0c1c/6.4.3-GoldenDict-ng-v23.05.01-WuYi-Installer.exe'
-    checksum     = '8c5d474e02ef3ec1aee38590179d388d6ce7f4a8c8bef0b8a8de2d3b24fe6cad'
+    url          = 'https://github.com/xiaoyifang/goldendict-ng/releases/download/v24.05.05-LiXia.ecd1138c/6.7.0-GoldenDict-ng-Installer.exe'
+    checksum     = '4534a47f3d6fdb07fe656a469587f03e152d990a823ee85c6c5c191eb2c2ecbb'
     checksumType = 'sha256'
     silentArgs   = '/S'
 }
