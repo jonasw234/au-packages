@@ -13,8 +13,8 @@ if ($key.Count -ge 1)
 $packageArgs = @{
     packageName    = $packageName
     fileType       = 'exe'
-    url64          = 'https://github.com/nomic-ai/gpt4all/releases/download/v3.1.0/gpt4all-installer-win64-v3.1.0.exe'
-    checksum64     = '8db0bce3be837272dd75bff4c475db9d130ad1440be7fcf494a5c188cca9b21c'
+    url64          = 'https://github.com/nomic-ai/gpt4all/releases/download/v3.1.1/gpt4all-installer-win64-v3.1.1.exe'
+    checksum64     = 'abea1a51cbbfc3faa94fee58631c2eca6c4b7608c1fda01fbb2b4ac729fc905d'
     checksumType64 = 'sha256'
     silentArgs     = $installString + ' --accept-licenses --default-answer --confirm-command'
 }
