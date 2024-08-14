@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>krokiet</id>
+    <title>Krokiet</title>
+    <version>7.0.0</version>
+    <authors>Rafał Mikrut</authors>
+    <owners>Jonas A. Wendorf</owners>
+    <summary>Slint version of Czkawka (tch•kav•ka, hiccup), a simple, fast and free app to remove unnecessary files from your computer.</summary>
+    <description>
+![com github qarmin czkawka](https://user-images.githubusercontent.com/41945903/102616149-66490400-4137-11eb-9cd6-813b2b070834.png)
+
+**Krokiet** is the Slint version of **Czkawka** (_tch•kav•ka_, hiccup), a simple, fast and free app to remove unnecessary files from your computer.
+
+## Features
+- Written in memory safe Rust
+- Amazingly fast - due to using more or less advanced algorithms and multithreading
+- Free, Open Source without ads
+- Multiplatform - works on Linux, Windows and macOS
+- Cache support - second and further scans should be a lot faster than the first one
+- CLI frontend - for easy automation
+- GUI frontend - uses modern GTK 3 and looks similar to FSlint
+- Rich search option - allows setting absolute included and excluded directories, set of allowed file extensions 
+  or excluded items with the `*` wildcard
+- Multiple tools to use:
+  - Duplicates - Finds duplicates based on file name, size, hash, hash of just first 1 MB of a file
+  - Empty Folders - Finds empty folders with the help of an advanced algorithm
+  - Big Files - Finds the provided number of the biggest files in given location
+  - Empty Files - Looks for empty files across the drive
+  - Temporary Files - Finds temporary files
+  - Similar Images - Finds images which are not exactly the same (different resolution, watermarks)
+  - Zeroed Files - Finds files which are filled with zeros (usually corrupted)
+  - Same Music - Searches for music with the same artist, album etc.
+  - Invalid Symbolic Links - Shows symbolic links which point to non-existent files/directories
+  - Broken Files - Finds files with an invalid extension or that are corrupted
+
+![Czkawka](https://user-images.githubusercontent.com/41945903/104711404-9cbb7400-5721-11eb-904d-9677c189f7ab.gif)
+
+*Please note* This is an automatically updated package.  If the package is outdated for more than two days, please [let me know](https://github.com/jonasw234/au-packages/issues).
+    </description>
+    <projectUrl>https://github.com/qarmin/czkawka</projectUrl>
+    <projectSourceUrl>https://github.com/qarmin/czkawka</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/qarmin/czkawka/issues</bugTrackerUrl>
+    <docsUrl>https://github.com/qarmin/czkawka/blob/master/instructions/Instruction.md</docsUrl>
+    <iconUrl>https://cdn.statically.io/gh/qarmin/czkawka/master/data/icons/com.github.qarmin.czkawka.svg</iconUrl>
+    <packageSourceUrl>https://github.com/jonasw234/au-packages/tree/master/krokiet</packageSourceUrl>
+    <tags>duplicate finder similar images music metadata tags invalid symlinks temporary files big zeroed redundant clean czkawka</tags>
+    <copyright>czkawka</copyright>
+    <licenseUrl>https://github.com/qarmin/czkawka#usage-installation-compilation-requirements-license</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>https://github.com/qarmin/czkawka/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
+
