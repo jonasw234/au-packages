@@ -14,6 +14,11 @@ $url64 = 'https://github.com/qarmin/czkawka/releases/download/7.0.0/windows_krok
 $checksum64 = 'c98191d420f3c66f56fab9e232e604c354ecae30513b79497f8430f6111be42c'
 $checksumType64 = 'sha256'
 
+# Ensure the installation path exists
+if (-not (Test-Path -Path $installPath)) {
+    New-Item -ItemType Directory -Force -Path $installPath | Out-Null
+}
+
 # Download the .exe file directly to the install path
 Invoke-WebRequest -Uri $url64 -OutFile $binPath -UseBasicParsing
 
