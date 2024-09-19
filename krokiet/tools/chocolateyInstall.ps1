@@ -20,23 +20,14 @@ if (-not (Test-Path -Path $installPath)) {
 }
 
 # Download the .exe file directly to the install path
-Invoke-WebRequest -Uri $url64 -OutFile $binPath -UseBasicParsing
+Get-ChocolateyWebFile -PackageName krokiet -Url64bit $url64 -Checksum64 $checksum64 -ChecksumType64 SHA256 -FileFullPath $binPath
 
-# Compute the local checksum of the downloaded file
-$computedChecksum64 = (Get-FileHash -Path $binPath -Algorithm $checksumType64).Hash
-
-# Compare the computed checksum with the expected checksum
-if ($computedChecksum64 -eq $checksum64) {
-    # Proceed with creating the shortcuts if the checksums match
-    $shortcutArgs = @{
-        targetPath       = $binPath
-        workingDirectory = $installPath
-        iconLocation     = $iconPath
-        windowStyle      = '1'
-    }
-
-    Install-ChocolateyShortcut @shortcutArgs -ShortcutFilePath $desktopShortcutPath
-    Install-ChocolateyShortcut @shortcutArgs -ShortcutFilePath $startmenuShortcutPath
-} else {
-    Write-Error "Checksum verification failed. Expected '$checksum64', got '$computedChecksum64'. Please retry the download or notify the package author on Github if the problem persists."
+$shortcutArgs = @{
+    targetPath       = $binPath
+    workingDirectory = $installPath
+    iconLocation     = $iconPath
+    windowStyle      = '1'
 }
+
+Install-ChocolateyShortcut @shortcutArgs -ShortcutFilePath $desktopShortcutPath
+Install-ChocolateyShortcut @shortcutArgs -ShortcutFilePath $startmenuShortcutPath
