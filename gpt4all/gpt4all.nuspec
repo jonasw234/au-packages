@@ -4,7 +4,7 @@
   <metadata>
     <id>gpt4all</id>
     <title>GPT4All</title>
-    <version>3.3.0</version>
+    <version>3.3.1</version>
     <authors>nomic-ai</authors>
     <owners>Jonas A. Wendorf</owners>
     <summary>Open-source large language models that run locally on your CPU and nearly any GPU</summary>
