@@ -10,8 +10,8 @@ if ($pp.InstallDir) {
 $packageArgs = @{
     packageName    = $packageName
     fileType       = 'msi'
-    url            = 'https://www.freeoffice.com/download.php?filename=https://www.softmaker.net/down/freeoffice2021.msi'
-    checksum       = '83ef976de06b213731dcc32150b69efb4d6d2fd5be790c51ceaa65b61a92068d'
+    url            = 'https://www.freeoffice.com/download.php?filename=https://www.softmaker.net/down/freeoffice2024.msi'
+    checksum       = 'ea30e43f49d6254175e1b9970abc43bf00db093f9e141b197df3dc374d632c8c'
     checksumType   = 'sha256'
     silentArgs     = '/norestart /qn APPLICATIONFOLDER="' + $installDir + '"'
 }
