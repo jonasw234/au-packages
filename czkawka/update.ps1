@@ -17,7 +17,7 @@ function global:au_GetLatest {
 
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 
-    $file    = 'windows_czkawka_gui_gtk_410\.zip$'
+    $file    = 'windows_czkawka_gui_(gtk_)?410\.zip$'
     $url     = (($download_page.Content | ConvertFrom-Json).assets | Where-Object browser_download_url -Match $file).browser_download_url
     $version = $url -split '\/download\/|\/' + $file
     $version = $version[1]
