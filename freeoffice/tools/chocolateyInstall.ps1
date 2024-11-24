@@ -11,7 +11,7 @@ $packageArgs = @{
     packageName    = $packageName
     fileType       = 'msi'
     url            = 'https://www.freeoffice.com/download.php?filename=https://www.softmaker.net/down/freeoffice2024.msi'
-    checksum       = 'ea30e43f49d6254175e1b9970abc43bf00db093f9e141b197df3dc374d632c8c'
+    checksum       = 'eb778d1f7c6bb0338a19993411468c3905730df5bc708e502836045cc38d1779'
     checksumType   = 'sha256'
     silentArgs     = '/norestart /qn APPLICATIONFOLDER="' + $installDir + '"'
 }
