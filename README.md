@@ -1,3 +1,9 @@
+# DEPRECATION NOTICE
+
+Deprecated in favor of [Chocolatey-AU](https://github.com/jonasw234/chocolatey-au), which uses the [new updater module](https://github.com/chocolatey-community/chocolatey-au).
+
+# Original README
+
 [![](https://ci.appveyor.com/api/projects/status/github/JonasW234/au-packages?svg=true)](https://ci.appveyor.com/project/JonasW234/au-packages)
 [Update status](https://gist.github.com/JonasW234/235ac14f598c6ee89f066ba309bdf5a7)
 [![](http://transparent-favicon.info/favicon.ico)](#)
