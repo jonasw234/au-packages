@@ -1,7 +1,7 @@
-Import-Module au
+Import-Module Chocolatey-AU
 . $PSScriptRoot\..\_scripts\all.ps1
 
-$releases = 'https://www.winprivacy.de/deutsch-start/download/'
+$releases = 'https://www.instalki.pl/download/programy/windows/bezpieczenstwo/zabezpieczajace/w10privacy/'
 
 function global:au_SearchReplace {
    @{
@@ -15,14 +15,9 @@ function global:au_SearchReplace {
 function global:au_GetLatest {
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 
-    $re       = 'W10Privacy.zip'
-    $domain   = $releases -split 'W10Privacy.zip' | select -First 1
-    $url      = $download_page.links | ? href -match $re | select -First 1 -expand href
-    $url      = "https://www.w10privacy.de$url" 
-    $redirect = Invoke-WebRequest -Uri $url -MaximumRedirection 0 -ErrorAction Ignore -UseBasicParsing
-    $url      = $redirect.Headers.Location
-    $download_page.Content -match 'v(\.\d+){0,5}\.\d+'
-    $version  = $matches[0].substring(2)
+    $url     = 'https://download.instalki.org/programy/Windows/Bezpieczenstwo/zabezpieczajace/W10Privacy.zip'
+    $download_page.Content -match '<span class="version">(\d+(\.\d+){0,5}\.\d+)</span>'
+    $version = $matches[1]
 
     @{
         Version = $version
